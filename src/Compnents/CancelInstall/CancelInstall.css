@@ -1,0 +1,8 @@
+.modaldia .modal-dialog .modal-content {
+  width: 80% !important;
+  margin: auto !important;
+
+}
+.modaldia .modal-dialog{
+    max-width: 100% !important;
+}

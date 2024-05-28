@@ -1,0 +1,13 @@
+.description{
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: #D9D9D9;
+}
+.soraFoot{
+
+}
+@media (max-width:700px) {
+    .soraFoot{
+        width: 18rem !important;
+    }
+}

@@ -1,0 +1,35 @@
+.acco1 .accordion-button {
+  background-color: #0c6a2c !important    ;
+  color: white !important;
+  text-align: right !important;
+}
+
+@media (max-width: 630px) {
+  .tableshow {
+    display: none;
+  }
+  .tablehide {
+    display: block !important;
+  }
+  .rec-list{
+    border: 1px solid  #D8D8D8;
+    border-radius: 0.7rem;
+    display: flex !important; 
+    flex-direction: column !important;
+    align-items: start !important;
+    text-align: right;
+    cursor: pointer;
+  }
+ .fonthead *{
+  font-size: 0.9rem !important;
+ }
+}
+@media (min-width: 630px) {
+  .tableshow {
+    display: inline-table !important;
+    width: 100% !important;
+  }
+  .tablehide {
+    display: none !important;
+  }
+}

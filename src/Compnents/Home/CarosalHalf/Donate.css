@@ -1,0 +1,29 @@
+.formHalf{
+height: 100%;
+background: url("../../../../public/assets/Half-Right.png");
+background-size: cover;
+color: white;
+}
+.formHalf input{
+    width: 100%;
+    border: none;
+    height: 2.2rem;
+}
+.formHalf img{
+    width: 6rem;
+}
+.boton{
+    background: transparent;
+    color: white;
+    border: #FFC107 3px solid;
+    border-radius: 9px;
+    width: 7rem;
+}
+.contact{
+    background-color: #FFC107;
+    color: black !important;
+    border-radius: 9px 0px 9px 9px ;
+}
+.contact-info{
+    font-size: 2.5rem;
+}

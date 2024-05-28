@@ -1,0 +1,21 @@
+.zakatmod .modal-dialog {
+  max-width: 50vw !important;
+  margin: auto !important;
+}
+@media (max-width: 767px) {
+  .zakatmod .modal-dialog {
+    max-width: 80vw !important;
+    margin: auto !important;
+  }
+}
+.zakatmod{
+    padding-left: 0px !important;
+}
+.zakatmodal button {
+  margin: 0 !important;
+}
+.zakatmodal {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: flex-start !important;
+}

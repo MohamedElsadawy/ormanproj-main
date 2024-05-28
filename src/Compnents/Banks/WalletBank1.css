@@ -1,0 +1,74 @@
+.checkwallet * {
+  padding: 0 !important;
+  text-align: left;
+  display: flex;
+  color: #343a40 !important;
+  font-weight: 500;
+}
+@media (max-width: 900px) {
+  .checkwallet * {
+    padding: 0 !important;
+    text-align: right !important;
+    display: flex;
+    color: #343a40 !important;
+    font-weight: 500;
+  }
+  .flexmob{
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .inps{
+    width: 19rem !important;
+  }
+  .inps input{
+    width: 13rem !important;
+  }
+}
+@media (max-width: 500px) {
+  .inps input{
+    width: 8.5rem !important;
+  }
+}
+.flexmob label{
+max-width: 25rem !important;
+text-align: right !important;
+}
+.checkwallet input {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+}
+.walletdiv {
+  display: flex;
+  justify-content: end;
+}
+.form-check-input:checked {
+  background-color: #0c6a2c !important;
+  border: 1px solid !important;
+}
+
+.calc {
+  background-color: #0c6a2c !important;
+  border-radius: 0.4rem;
+  height: 2.2rem;
+  width: 1.8rem;
+  color: white !important;
+  cursor: pointer;
+  border: none !important;
+}
+.calc {
+  font-size: 2rem;
+}
+.righttext {
+  text-align: right !important;
+}
+.inp {
+  font-size: 2rem !important;
+  margin-left: -20px !important;
+  border-radius: 0.6rem !important;
+  border: 1px solid #d9d9d9;
+  padding-left: 10px !important;
+}
+.dj{
+  margin-left: 0rem !important;
+}

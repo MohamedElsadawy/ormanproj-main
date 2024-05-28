@@ -1,0 +1,31 @@
+.nahr{
+    border: 2px solid #C2C2C2;
+    border-radius: 0.8rem;
+    margin-top: -3rem !important;
+    z-index: 7448 !important;
+    position: relative;
+    background-color: #FFFFFF;
+}
+@media (max-width: 768px) {
+    .nahr{
+        width: 90% !important;
+    }
+}
+.nahrrkm{
+     border: 1px solid #C2C2C2;
+     border-radius: 0.5rem !important;
+}
+.inputt{
+    width:100% !important;
+    outline: none !important;
+    border: 1px solid #C2C2C2 !important;
+    outline: 1px solid #C2C2C2 !important;
+    height: 100% !important;
+
+}
+.btnn{
+    border: 2px solid #FFC107;
+    background-color: transparent !important;
+    border-radius: 5px !important;
+
+}

@@ -1,0 +1,45 @@
+.donutchart-track {
+  fill: transparent;
+  stroke: #dae2e5;
+  stroke-width: 26;
+}
+.donutchart-indicator {
+  fill: transparent;
+  stroke: #ffc107;
+  stroke-width: 26;
+  stroke-dasharray: 0 10000;
+  transition: stroke-dasharray 0.3s ease;
+}
+.donutchart-track {
+  stroke: #0c6a2c !important;
+}
+.donutchart-text {
+  fill: black !important;
+}
+.donutchart {
+  margin: 0 auto;
+  border-radius: 50%;
+  display: block;
+}
+
+.don {
+  fill: #d7e0e6 !important;
+}
+.donutchart-text {
+  font-family: "Roboto";
+}
+.donutchart-text-val {
+  font-size: 22px;
+}
+.donutchart-text-percent {
+  font-size: 14px;
+}
+.donutchart-text-label {
+  font-size: 9px;
+}
+
+input {
+  padding: 8px 10px;
+  border-radius: 4px;
+  width: 154px;
+}

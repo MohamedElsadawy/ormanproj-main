@@ -1,0 +1,26 @@
+
+.form-container {
+  max-width: 370px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+.form-row input {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.urBtn{
+    width: 5rem !important;
+    align-self: flex-end;
+    background-color: #8DC540 !important;
+    border: none !important;
+}

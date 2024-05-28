@@ -1,0 +1,3828 @@
+م الارسال بنجاح
+ 
+            بطاقة إئتماني
+ 
+          30-9-2023
+ 
+DisplayBankAcount
+ 
+showz
+ 
+ضف بيان
+ 
+screen
+ 
+screen
+ 
+zakatmod
+ 
+ <Form onSubmit={handleSubmit}>
+            <Form.Group
+              as={Row}
+              className="mb-3 flex-row-reverse boxshadowout"
+              controlId=""
+            >
+              <Col sm="12" xs={12} className="mb-3">
+                <Form.Control
+                  type="text"
+                  placeholder="الاسم"
+                  name="name"
+                  style={{
+                    fontSize: "0.8rem",
+                  }}
+                  dir="rtl"
+                  onChange={handleInputChange}
+                  required
+                />
+              </Col>{" "}
+              <Col sm="12" xs={12} className="mb-3">
+                <Form.Control
+                  type="email"
+                  style={{
+                    fontSize: "0.8rem",
+                  }}
+                  dir="rtl"
+                  name="email"
+                  id=""
+                  placeholder="البريد الاليكتروني"
+                  onChange={handleInputChange}
+                  required
+                />
+              </Col>
+              <Col sm="12" xs={12} className="mb-3">
+                <Form.Control
+                  type="tel"
+                  placeholder="رقم المحمول"
+                  name="phone"
+                  min={0}
+                  style={{
+                    fontSize: "0.8rem",
+                  }}
+                  dir="rtl"
+                  onChange={handleInputChange}
+                  required
+                />
+              </Col>
+            </Form.Group>
+
+            <div className="flex-cen" style={{ with: "100%" }} type="">
+              <Button
+                style={{
+                  background: "transparent",
+                  border: "3px solid #ffc107",
+                  color: "black",
+                  borderRadius: "30px",
+                }}
+                type="submit"
+              >
+                اتبرع الان
+              </Button>
+            </div>
+          </Form>
+ 
+  useEffect(() => {
+    // Set email and token from query params when component mounts
+    setFormData((prevState) => ({
+      ...prevState,
+      email: getEmail(),
+      token: getToken(),
+    }));
+  }, []);
+
+ 
+
+  const location = useLocation();
+
+  // Function to parse query parameters
+  const getQueryParams = () => {
+    return new URLSearchParams(location.search);
+  };
+
+  // Function to get specific query parameter
+  const getEmail = () => {
+    return getQueryParams().get("email");
+  };
+
+  const getToken = () => {
+    return getQueryParams().get("token");
+  };
+
+ 
+/News/:id
+ 
+ نسيت كلمة السر؟
+ 
+"../../../assets/Rectangle.png"
+ 
+ <SwiperSlide>
+          <img
+            src="../../../assets/Rectangle.png"
+            alt=""
+            className="imageSlide"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="../../../assets/Rectangle.png"
+            alt=""
+            className="imageSlide"
+          />
+        </SwiperSlide>
+ 
+"../../../assets/Rectangle.png"
+ 
+item.img &&
+ 
+accountNumber
+ 
+رقم الحساب
+ 
+{element.bankType} :{" "}
+ 
+{element.bankType}
+ 
+  رقم الحساب بال{element.bankType} :{" "}
+ 
+{element.bankType}
+ 
+monthlyAmount
+ 
+    if (res.data.bankId !== 0) {
+            setbank(res.data.bankId);
+          }
+ 
+13rem
+ 
+ border: "1px solid blue",
+ 
+    <div className="w-100">
+          <button className="card_btn">اقرا المزيد</button>
+        </div>
+ 
+style={{ textAlign: "left" }}
+ 
+extAlign: "left"
+ 
+<NewsDetailsCard />
+ 
+image
+ 
+mport UseFetch from "../../../UseFetch";
+ 
+w-100 w-100 
+ 
+م تغيير كلمة السر بنجاح
+ 
+جاء اختيار الجهة
+ 
+  const blob = new Blob([response.data], {
+          type: "text/html",
+        });
+        const url = URL.createObjectURL(blob);
+        window.open(url, "_blank");
+ 
+donatorData
+ 
+    <Form.Group as={Row} className="mb-3" controlId="">
+            <Form.Label column sm="3" xs={12} className="label">
+              <CiUser size={25} className="mx-2" />
+              كلمــــــــة المرور الحالية :
+            </Form.Label>
+            <Col sm="9" xs={12}>
+              <Form.Control type="password" />
+            </Col>
+          </Form.Group>
+ 
+م الارسال بنجاح
+ 
+ const blob = new Blob([response.data], {
+          type: "text/html",
+        });
+        const url = URL.createObjectURL(blob);
+        window.open(url, "_blank");
+ 
+حفظ
+ 
+   {/* Social Media handles */}
+ 
+المرور
+ 
+ كلمة المرور الجديد
+ 
+   <Form.Group as={Row} className="mb-3" controlId="formLinkedIn">
+          <Form.Label column sm="3" xs={12} className="label">
+            <FaLock size={25} className="mx-2" /> تأكيد كلمة المرور الجديدة :
+          </Form.Label>
+          <Col sm="9" xs={12}>
+            <Form.Control type="password" className="mb-1" />
+          </Col>
+        </Form.Group>
+ 
+      <Form.Group as={Row} className="mb-3" controlId="">
+          <Form.Label column sm="3" xs={12} className="label">
+            <CiUser size={25} className="mx-2" />
+            كلمــــــــة المرور الحالية :
+          </Form.Label>
+          <Col sm="9" xs={12}>
+            <Form.Control type="password" />
+          </Col>
+        </Form.Group>
+ 
+
+      tryfetch == true
+ 
+null
+ 
+ <Card.Text className="p-0" style={{ textAlign: "right" }}>
+            منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على
+            التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن
+            الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا.
+          </Card.Text>
+ 
+   توزيع 20 ألف كيلو لحوم في 10 محافظات على المستحقين
+ 
+image={item?.imageURLs[0]?.imageURL}
+ 
+item.com
+ 
+ele?.
+ 
+    <p>
+        يمكنك التبرع لجميع الخدمات التي تقدمها الأورمان من خلال فوري باسم جمعية
+        الأورمان
+      </p>
+      <p style={{ fontWeight: "700", fontSize: "1.7rem" }}>كود 990</p>
+      <p>
+        كما يمكن خصيص تبرعاتكم لنشاط بعينه معين من أنشطتنا بالأكواد التالية:-
+      </p>
+ 
+w-100 w-100 
+ 
+"../../../assets/1631185971659.png"
+ 
+ <p>
+        يمكنك التبرع لجميع الخدمات التي تقدمها الأورمان من خلال فوري باسم جمعية
+        الأورمان
+      </p>
+      <p style={{ fontWeight: "700", fontSize: "1.7rem" }}>كود 990</p>
+      <p>
+        كما يمكن خصيص تبرعاتكم لنشاط بعينه معين من أنشطتنا بالأكواد التالية:-
+      </p>
+ 
+ways1.length - 1
+ 
+ohterWaysToDonate.length - 1
+ 
+      // const blob = new Blob([response.data], {
+      //   type: "text/html",
+      // });
+      // const url = URL.createObjectURL(blob);
+ 
+null
+ 
+{
+          fullAddress: "striskskng",
+          cityId: 1,
+        },
+ 
+  <Form.Group
+              as={Row}
+              className="mb-3 flex-row-reverse boxshadowout"
+              controlId=""
+            >
+              <Form.Label column sm="12" md={4} xs={12} className="label">
+                إجمالي قيمة الزكاة :
+              </Form.Label>
+              <Col
+                sm="8"
+                xs={12}
+                className="d-flex align-items-center justify-content-end"
+              >
+                <span style={{ fontSize: "0.6rem", marginRight: "5px" }}>
+                  بالجنيه المصري
+                </span>
+                <Form.Control type="number" dir="rtl" className="w-50" />
+              </Col>
+            </Form.Group>
+            <Form.Group
+              as={Row}
+              className="mb-3"
+              controlId="formLinkedIn"
+              style={{ flexDirection: "row-reverse" }}
+            >
+              <Form.Label column sm="5" xs={12} md={4} className="label">
+                : هدف التبرع
+              </Form.Label>
+              <Col sm="7" xs={12} md={8}>
+                <Form.Select>
+                  <option>اختر هدف التبرع</option>
+                </Form.Select>
+              </Col>
+            </Form.Group>
+ 
+   <Form.Group
+              as={Row}
+              className="mb-3 flex-row-reverse boxshadowout"
+              controlId=""
+            >
+              <Form.Label column sm="12" md={4} xs={12} className="label">
+                إجمالي قيمة الزكاة :
+              </Form.Label>
+              <Col
+                sm="8"
+                xs={12}
+                className="d-flex align-items-center justify-content-end"
+              >
+                <span style={{ fontSize: "0.6rem", marginRight: "5px" }}>
+                  بالجنيه المصري
+                </span>
+                <Form.Control type="number" dir="rtl" className="w-50" />
+              </Col>
+            </Form.Group>
+            <Form.Group
+              as={Row}
+              className="mb-3"
+              controlId="formLinkedIn"
+              style={{ flexDirection: "row-reverse" }}
+            >
+              <Form.Label column sm="5" xs={12} md={4} className="label">
+                : هدف التبرع
+              </Form.Label>
+              <Col sm="7" xs={12} md={8}>
+                <Form.Select>
+                  <option>اختر هدف التبرع</option>
+                </Form.Select>
+              </Col>
+            </Form.Group>
+            <div className="flex-cen" style={{ with: "100%" }} type="">
+              <Button
+                style={{
+                  background: "transparent",
+                  border: "3px solid #ffc107",
+                  color: "black",
+                  borderRadius: "30px",
+                }}
+              >
+                اتبرع الان
+              </Button>
+            </div>
+ 
+  <div className="w-100 mx-3">
+            <p style={{ fontSize: "1.2rem" }}>اعمل لنفسك خير بزكاتك</p>
+            <p style={{ fontSize: "0.76rem", color: "#8E8E8E" }}>
+              نصاب زكاة النقود والعملات، ما قيمته(85 غراما) من الذهب الخالص.
+            </p>
+          </div>
+ 
+ <Modal.Title className="w-100">
+          <div className="w-100 mx-3">
+            <p style={{ fontSize: "1.2rem" }}>اعمل لنفسك خير بزكاتك</p>
+            <p style={{ fontSize: "0.76rem", color: "#8E8E8E" }}>
+              نصاب زكاة النقود والعملات، ما قيمته(85 غراما) من الذهب الخالص.
+            </p>
+          </div>
+        </Modal.Title>
+ 
+    value={donationData.donatorDto.name}
+                  onChange={handleDonatorDataChange}
+ 
+   value={donationData.donatorDto.email}
+                  onChange={handleDonatorDataChange}
+ 
+ value={donationData.donatorDto.phone}
+                  onChange={handleDonatorDataChange}
+ 
+   onClick={() => {
+                  setDonationData((prevData) => ({
+                    ...prevData,
+                    totalAmount: +zakatmalr + +reszakat,
+                    subDonates: [
+                      {
+                        ...prevData.subDonates[0], // Keep other properties of subDonates intact
+                        amount: +zakatmalr + +reszakat,
+                        quantity: 1,
+                      },
+                    ],
+                  }));
+                }}
+ 
+ <div className="flex-cen" style={{ with: "100%" }} type="">
+              <Button
+                style={{
+                  background: "transparent",
+                  border: "3px solid #ffc107",
+                  color: "black",
+                  borderRadius: "30px",
+                }}
+                onClick={() => {
+                  setDonationData((prevData) => ({
+                    ...prevData,
+                    totalAmount: +zakatmalr + +reszakat,
+                    subDonates: [
+                      {
+                        ...prevData.subDonates[0], // Keep other properties of subDonates intact
+                        amount: +zakatmalr + +reszakat,
+                        quantity: 1,
+                      },
+                    ],
+                  }));
+                }}
+              >
+                اتبرع الان
+              </Button>
+            </div>
+ 
+    {data?.map((item) => {
+                    return (
+                      <>
+                        {console.log(data)}
+                        {item.customPortionPrice && (
+                          <option value={JSON.stringify(item)} key={item.id}>
+                            {item.name}
+                          </option>
+                        )}
+                      </>
+                    );
+                  })}
+ 
+onChange={handlePortionId
+ 
+     <ZakatMal
+              zakatmal={datazakat.zakatmal}
+              setdatazakat={setdatazakat}
+              datazakat={datazakat}
+              zakatmalr={zakatmalr}
+              setzakatmalr={setzakatmalr}
+            />
+            <ZakatOsoal
+              datazakat={datazakat}
+              setdatazakat={setdatazakat}
+              reszakat={reszakat}
+              setreszakat={setreszakat}
+            />
+ 
+  <Card.Body className="p-0" style={{ flex: "0", color: "#8E8E8E" }}>
+          <Card.Text className="p-0" style={{ textAlign: "right" }}>
+            {description}
+          </Card.Text>
+        </Card.Body>
+ 
+  <Card.Body className="p-0" style={{ flex: "0", color: "#8E8E8E" }}>
+          <Card.Text className="p-0" style={{ textAlign: "right" }}>
+            {description}
+          </Card.Text>
+        </Card.Body>
+ 
+  <Card.Body className="p-0" style={{ flex: "0", color: "#8E8E8E" }}>
+          <Card.Text className="p-0" style={{ textAlign: "right" }}>
+            {description}
+          </Card.Text>
+        </Card.Body>
+ 
+29.3rem
+ 
+  <Card.Text className="p-0" style={{ textAlign: "right" }}>
+            {desc}
+          </Card.Text>
+ 
+"../../../assets/profileph.png"
+ 
+{`../../../assets/${image}`}
+ 
+&& gocheck === true
+ 
+ e2tcom={e2tcom}
+              sete2={sete2}
+ 
+  e2tcom={e2tcom}
+ 
+width: "18rem" 
+ 
+, width: "20rem"
+ 
+حسب رغبة المتبر
+ 
+flex
+ 
+open(url, "_blank");
+ 
+&& gocheck === true
+ 
+, donationData.subDonates
+ 
+gocheck
+ 
+handleDonationSubmit, 
+ 
+gocheck
+ 
+, "_blank"
+ 
+, "_blank"
+ 
+andleDonationSubmit,
+ 
+newSubDonate
+ 
+handleDonationSubmit,
+ 
+handleDonationSubmit,
+ 
+if (e) {
+      e.preventDefault();
+    }
+ 
+ && gocheck === true
+ 
+ "_blank"
+ 
+<p
+                onClick={handleDonationSubmit}
+                style={{
+                  textAlign: "right",
+                  fontSize: "1.6rem",
+                  color: "#FF0000",
+                  cursor: "pointer",
+                }}
+              >
+                إضافة تبرع جديد
+              </p>
+ 
+counter
+ 
+donationData.subDonates,
+ 
+donationData.subDonates > 0 ? handledon :
+ 
+handleDonationSubmit
+ 
+ا
+ 
+object
+ 
+striskskng
+ 
+readOnly
+ 
+value={amountField === null ? null : amountField}
+ 
+يمة التبـــــــــــرع :
+ 
+ console.log("anananana", d);
+    console.log("myprojects", donate.portions && donate.portions);
+ 
+{errors.address.message}
+ 
+و
+ 
+datasend.governorateID !== 0 &&
+ 
+المحافظة
+ 
+والجهة
+ 
+datasend.governorateID === 0 &&
+ 
+&& datasend.projectID === 0
+ 
+ if (e.key === "-") {
+      e.preventDefault();
+      return;
+    }
+ 
+key
+ 
+سن محمد سعد
+ 
+token
+ 
+data2?.length < 5 ? data2?.length : 5
+ 
+Pagination
+ 
+Keyboard
+ 
+Mousewheel
+ 
+{ link }
+ 
+to={link} target="_blank"
+ 
+  <img src={data?.photoPath} alt="" />
+      <div className="center1">
+        {arr2.map((item) => {
+          return (
+            <img
+              src={`../../../assets/${item}`}
+              alt=""
+              style={{ width: "13.8rem", height: "13.8rem" }}
+            />
+          );
+        })}
+      </div>
+ 
+"القيمة الكاملة للكشك ( بضاعة /ثلاجة /جسم الكشك/ توصيل كهرباء )."
+ 
+"القيمة الكاملة للكشك ( بضاعة /ثلاجة /جسم الكشك/ توصيل كهرباء )."
+ 
+      <SwiperSlide className="swipeima">
+          <CardItem
+            img="../../../assets/health.png"
+            title="الصحة الجيدة والرفاه"
+            desc="منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا....اقرأ المزيد"
+          />
+        </SwiperSlide>
+ 
+"منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا....اقرأ المزي
+ 
+"الصحة الجيدة والرفاه"
+ 
+"../../../assets/health.png"
+ 
+ <SwiperSlide className="swipeima">
+          <CardItem
+            img="../../../assets/modon.png"
+            title={
+              "المدن والمجتمعات المستدامة وتوفير المياه النظيفة والصرف الصحي"
+            }
+            desc="منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا....اقرأ المزيد"
+          />
+        </SwiperSlide >
+        <SwiperSlide className="swipeima">
+          <CardItem
+            img="../../../assets/health.png"
+            title="القضاء على الجوع والفقر"
+            desc="منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا....اقرأ المزيد"
+
+          />
+        </SwiperSlide>{" "}
+        <SwiperSlide className="swipeima">
+          <CardItem img="../../../assets/health.png" 
+            desc="منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا....اقرأ المزيد"
+            title="القضاء على الجوع والفقر"
+           
+           />
+        </SwiperSlide>
+        <SwiperSlide className="swipeima">
+          <CardItem img="../../../assets/health.png" 
+            desc="منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا....اقرأ المزيد"
+            title="القضاء على الجوع والفقر"
+            
+            />
+        </SwiperSlide>
+ 
+ key={index}
+ 
+  منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على
+          التبرعات، أنشئت عام 1993 ... اقرأ المزيد
+ 
+width: "100%",
+ 
+{`../../../assets/${ele.img}`}
+ 
+"../../../assets/Person.png"
+ 
+fawry
+ 
+    { name: "", images: [{ img: "1630935140652.png" }] },
+    { name: "", images: [{ img: "1630935204103.png" }] },
+    { name: "", images: [{ img: "1630935274765.png" }] },
+    { name: "", images: [{ img: "1630935323682.png" }] },
+    { name: "", images: [{ img: "1630935323682.png" }] },
+    { name: "", images: [{ img: "1630935460983.png" }] },
+    { name: "", images: [{ img: "1631185971659.png" }] },
+    { name: "", images: [{ img: "1633353078090.png" }] },
+    { name: "", images: [{ img: "1637227523210.jpg" }] },
+    { name: "", images: [{ img: "1641817819139 (1).png" }] },
+    { name: "", images: [{ img: "1673130250734.png" }] },
+    { name: "", images: [{ img: "1673130328203.png" }] },
+    { name: "", images: [{ img: "1683661235244.png" }] },
+    { name: "", images: [{ img: "1693417050117.png" }] },
+ 
+{ name: "", images: [{ img: "1630935274765.png" }] },
+    { name: "", images: [{ img: "1630935323682.png" }] },
+    { name: "", images: [{ img: "1630935323682.png" }] },
+    { name: "", images: [{ img: "1630935460983.png" }] },
+    { name: "", images: [{ img: "1631185971659.png" }] },
+    { name: "", images: [{ img: "1633353078090.png" }] },
+    { name: "", images: [{ img: "1637227523210.jpg" }] },
+    { name: "", images: [{ img: "1641817819139 (1).png" }] },
+    { name: "", images: [{ img: "1673130250734.png" }] },
+    { name: "", images: [{ img: "1673130328203.png" }] },
+    { name: "", images: [{ img: "1683661235244.png" }] },
+    { name: "", images: [{ img: "1693417050117.png" }] }
+ 
+/1
+ 
+م الارسال بنجاح
+ 
+ايوجد قيمة دفع
+ 
+border: "1px solid green"
+ 
+{selectedCard}
+ 
+setSelectedCard(event.target.value);
+ 
+"بطاقة الائتمان"
+ 
+portionId: element.id, // Set portionId with the id of the element
+ 
+ setDonationData({ ...prev });
+ 
+console.log(element);
+ 
+string
+ 
+ if (element) {
+      return element;
+    } else {
+      // Handle the case when no element with customPrice true is found
+    }
+ 
+console.log(portion);
+ 
+?.photoPath
+ 
+"" 
+ 
+يمة المال الذي املكه بالجنيه المصري
+ 
+    <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="البريد الاليكتروني"
+                value={donationData.donatorDto.email}
+                onChange={handleDonatorDataChange}
+                required
+              />
+              <input
+                type="text"
+                name="phone"
+                id=""
+                placeholder="رقم المحمول"
+                value={donationData.donatorDto.phone}
+                onChange={handleDonatorDataChange}
+                required
+              />
+ 
+يمة المال الذي املكه بالجنيه المصري"
+ 
+email
+ 
+     <Form.Label column sm="3.4" md={3} xs={12} className="label">
+                  قيمة زكاة المال
+                </Form.Label>
+                <Col
+                  sm="8"
+                  xs={12}
+                  className="d-flex align-items-center justify-content-end"
+                >
+                  <span style={{ fontSize: "0.6rem", marginRight: "5px" }}>
+                    بالجنيه المصري
+                  </span>
+                  <Form.Control
+                    type="number"
+                    dir="rtl"
+                    className="w-50"
+                    value={zakatmalr}
+                    readOnly={true}
+                  />
+                </Col>
+ 
+ {item.name}
+ 
+value={item.id} key={item.id}
+ 
+        <option>الاشتراك</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+ 
+.toFixed(2)
+ 
+.toFixed(2)
+ 
+.toFixed(2) 
+ 
+Math.ceil
+ 
+Math.ceil
+ 
+ Math.ceil
+ 
+Math.ceil(
+ 
+  const [zakatmal1, setzakatmal1] = useState(0);
+  const [zakatmal2, setzakatmal2] = useState(0);
+ 
+{" "}
+ 
+null
+ 
+data,
+ 
+data
+ 
+: amountField === null
+                        ? null
+                        : amountField
+ 
+  console.log("donaaaate", donationData);
+ 
+null
+ 
+() => {}
+ 
+ axios
+                  .post(baseurl + "Donate/AddDonate", donationData)
+                  .then((response) => {})
+                  .catch((error) => {
+                    // Handle error
+                    console.error("Error making donation:", error);
+                    console.log("sjsjshshsh");
+                  });
+ 
+  onClick={}
+ 
+data2
+ 
+data
+ 
+`../../../assets/${item.image}`
+ 
+متابعة
+ 
+employee
+ 
+error.response ? error.response.data.message : "Server Error"
+ 
+id ==
+ 
+""
+ 
+donatorDto
+ 
+  if (res.data.typId) {
+          }
+ 
+    setinitialvalue(res.data.typId);
+            handlechange(res.data.typId);
+ 
+          setresDate(res.data);
+          dispatch(AddSource(id));
+          setAmountField(null);
+          setSelectedOption(null);
+ 
+auth
+ 
+null
+ 
+null
+ 
+if (amountField !== null) {
+      setAmountField(0);
+    }
+ 
+else {
+      setAmountField(null);
+    }
+ 
+data.price &&
+ 
+amountField === 0
+ 
+selectedOption ===
+ 
+&& selectedOption === undefined
+ 
+    donate &&
+        donate.portions &&
+ 
+, "lenghthththtth"
+ 
+console.log("portyy", eee.id == resData.portionId);
+ 
+eee.id == 
+ 
+portionId
+ 
+  console.log(projects1);
+  console.log(initialvalueP);
+ 
+     setAmountField(res.data.portionId);
+          setSelectedOption(res.data.portionId);
+ 
+index
+ 
+console.log(3039038974848646476);
+ 
+ useEffect(() => {
+    // settheProject();
+    console.log("myyyyyyphhhool");
+  }, [projects1,setprojects]);
+ 
+ console.log("foooooooooolyyyyyy");
+    console.log(initialvalue);
+ 
+projects1?.projects?.projects &&
+                      projects1.projects &&
+ 
+target
+ 
+event?.target && 
+ 
+.value
+ 
+data
+ 
+useEffect(()=>{
+
+  },[projects1])
+ 
+console.log(baseurl + `EmployeeLink/${id}`);
+ 
+defaultValue={3}
+ 
+data1 && data1.length >= 1 ? data1[0].id : ""
+ 
+baseurl +
+ 
+null
+ 
+   const blob = new Blob([response.data], {
+        type: "text/html",
+      });
+      const url = URL.createObjectURL(blob);
+      window.open(url, "_blank");
+ 
+donationData
+ 
+0
+ 
+index
+ 
+djdhdhdhydhydhdhy
+ 
+{" "}
+ 
+{" "}
+ 
+{" "}
+ 
+" "}
+ 
+null
+ 
+: false
+ 
+!inputtrue ?
+ 
+!inputtrue ?
+ 
+: false
+ 
+""
+ 
+eee.price
+ 
+:
+ 
+data
+ 
+.data.message
+ 
+oast,
+ 
+error.message
+ 
+"Error Notification !"
+ 
+ // Handle error, maybe show an error message to the user
+ 
+{index} 
+ 
+  const submitData = (e) => {
+    e.preventDefault();
+    sete2(1);
+  };
+ 
+ setComIndex, compIndex,
+ 
+{item.id}
+ 
+ const handleChange = (e) => {
+    const { name, value } = e.target;
+    setDonationData((prevData) => ({
+      ...prevData,
+      donatorDto: {
+        ...prevData.donatorDto,
+        [name]: value,
+      },
+    }));
+  };
+ 
+...prevData,
+        ...prevData.donatorDto
+ 
+.donatorDto
+ 
+.donatorDto
+ 
+[name]: value,
+ 
+ const submitData = (e) => {
+    e.preventDefault();
+    sete2(1);
+  };
+ 
+ const handleChange = (e) => {
+    const { name, value } = e.target;
+    setDonationData((prevData) => ({
+      ...prevData,
+      donatorDto: {
+        ...prevData.donatorDto,
+        [name]: value,
+      },
+    }));
+  };
+ 
+async
+ 
+ donationData={donationData}
+          setDonationData={setDonationData}
+ 
+ donationData,
+  setDonationData,
+ 
+donationData={donationData}
+          setDonationData={setDonationData}
+ 
+, donationData, setDonationData
+ 
+mohamedhh
+ 
+0123837374
+ 
+mohamedhh
+ 
+console.log(datazakat);
+  console.log(datazakat);
+ 
+projectDtos
+ 
+projectDtos
+ 
+useNavigate
+ 
+{" "}
+ 
+to="/"
+ 
+  <Link to="/" onClick={scrollToHelm}>
+          {title}
+        </Link>
+ 
+cl
+ 
+  donatorDto: {
+        ...prevData.donatorDto,
+        [name]: value,
+      },
+ 
+ const getCheckedId = () => {
+    const checkedOption = paymentOptions.find(
+      (option) => option.id === selectedPayment
+    );
+    return checkedOption ? checkedOption.id : null;
+  };
+ 
+ <div>
+              <label for="age2">
+                {" "}
+                <img src="../../../assets/Master.png" alt="" />
+              </label>
+              <input
+                type="radio"
+                id="age2"
+                name="age"
+                value="100"
+                style={{ width: "fit-content" }}
+              />
+            </div>
+            <div>
+              <label for="age3">
+                <img src="../../../assets/Visa2.png" alt="" />
+              </label>
+              <input
+                type="radio"
+                id="age3"
+                name="age"
+                value="100"
+                style={{ width: "fit-content" }}
+              />
+            </div>
+ 
+first
+ 
+{option.name}
+ 
+  donatorDto: {
+        ...prevData.donatorDto,
+        [name]: value,
+      },
+ 
+object
+ 
+.donatorDto,
+        [name]: value,
+ 
+// Attach slide change event handler
+ 
+// State to hold current slide index
+ 
+import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import { CiUser } from "react-icons/ci";
+import { RiInstagramFill } from "react-icons/ri";
+ 
+handleShowz, setShow 
+ 
+datazakat
+ 
+datazakat
+ 
+zakatmal={datazakat.zakatmal}
+ 
+import { CiUser } from "react-icons/ci";
+import { FaLock } from "react-icons/fa6";
+ 
+ const parts = data.availableDate.split("-");
+    const formattedDate = `${parts[2]}-${parts[1]}-${parts[0]}`;
+ 
+projectId
+ 
+ـــدف التبـــــــــــرع
+ 
+  const handleDateChange = (event) => {
+    // Handle date change
+    setSelectedDate(event.target.value);
+    console.log(event.target.value);
+  };
+ 
+console.log(data);
+ 
+Option 3
+ 
+<option>Option 2</option>
+ 
+    <option>Option 2</option>
+                <option>Option 3</option>
+ 
+type="date"
+                value={selectedDate}
+                onChange={handleDateChange}
+ 
+ pattern:
+                    /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,}$/,
+ 
+import { Link } from "react-router-dom";
+ 
+PartenerSuccess
+ 
+مين الصندوق المهندس
+ 
+/ محمد عادل محمد عبد المنعم زغلول
+ 
+inputSname ? inputSname : ""
+ 
+inputSname ? inputSname : ""
+ 
+null
+ 
+{}
+ 
+portobj
+ 
+useEffect(() => {
+    const totalSum = donationData?.subDonates.reduce(
+      (accumulator, item) => accumulator + item.amount * item.quantity,
+      0
+    );
+    setcounter(totalSum);
+  }, [handleDonationSubmit]);
+ 
+     {donationData.subDonates.length > 0 && (
+            <Col sm={12} md={5}>
+              <E2tman3cont2 subdon={donationData.subDonates} />
+              <Form.Group
+                as={Row}
+                className="mb-3"
+                controlId="formLinkedIn"
+                style={{ marginTop: "3rem" }}
+              >
+                <Form.Label column sm="5" xs={12} md={5} className="label">
+                  <img
+                    src="../../../assets/kematbr3.png"
+                    width={25}
+                    alt=""
+                    className="mx-2"
+                  />{" "}
+                  إجمالي التبـــــــــــرع :
+                </Form.Label>
+
+                <Col sm="7" xs={12} md={6}>
+                  <Form.Control type="text" value={counter} />
+                </Col>
+              </Form.Group>
+            </Col>
+          )}
+ 
+donationData.subDonates.length > 0 ? 7 :
+ 
+ useEffect(() => {
+    const totalSum = donationData?.subDonates.reduce(
+      (accumulator, item) => accumulator + item.amount * item.quantity,
+      0
+    );
+    setcounter(totalSum);
+  }, [handleDonationSubmit]);
+ 
+  console.log(portobj);
+  console.log(donationData);
+ 
+  {donationData.subDonates.length > 0 && (
+            <Col sm={12} md={5}>
+              <E2tman3cont2 subdon={donationData.subDonates} />
+              <Form.Group
+                as={Row}
+                className="mb-3"
+                controlId="formLinkedIn"
+                style={{ marginTop: "3rem" }}
+              >
+                <Form.Label column sm="5" xs={12} md={5} className="label">
+                  <img
+                    src="../../../assets/kematbr3.png"
+                    width={25}
+                    alt=""
+                    className="mx-2"
+                  />{" "}
+                  إجمالي التبـــــــــــرع :
+                </Form.Label>
+
+                <Col sm="7" xs={12} md={6}>
+                  <Form.Control type="text" value={counter} />
+                </Col>
+              </Form.Group>
+            </Col>
+          )}
+ 
+
+          <Col sm={12} md={5}>
+            <E2tman3cont2 subdon={donationData.subDonates} />
+            <Form.Group
+              as={Row}
+              className="mb-3"
+              controlId="formLinkedIn"
+              style={{ marginTop: "3rem" }}
+            >
+              <Form.Label column sm="5" xs={12} md={5} className="label">
+                <img
+                  src="../../../assets/kematbr3.png"
+                  width={25}
+                  alt=""
+                  className="mx-2"
+                />{" "}
+                إجمالي التبـــــــــــرع :
+              </Form.Label>
+
+              <Col sm="7" xs={12} md={6}>
+                <Form.Control type="text" value={counter} />
+              </Col>
+            </Form.Group>
+          </Col>
+ 
+{donationData.subDonates.length > 0 && (
+ 
+donationData.subDonates.length > 0 ? 7 : 12
+ 
+[...prevData.subDonates, newSubDonate]
+ 
+// Set your desired value
+ 
+   <Form.Group as={Row} className="mb-3" controlId="">
+                <InputGroup className="mb-3">
+                  <FormControl
+                    placeholder="Outlined"
+                    aria-label="Outlined"
+                    aria-describedby="outlined-basic"
+                  />
+                  <InputGroup.Text>
+                    <FormControl
+                      as="select"
+                      value={selectedOption}
+                      aria-label="Select an option"
+                    >
+                      <option>EGP</option>
+                      <option>USD</option>
+                    </FormControl>
+                  </InputGroup.Text>
+                </InputGroup>
+              </Form.Group>
+ 
+قيمة التبـــــــــــرع :
+ 
+.id
+ 
+ const newValue = Number(index);
+    setSelectedOption((prev) => (prev === newValue ? undefined : newValue));
+ 
+e.target.value
+ 
+portionid
+ 
+&&
+ 
+[0]?.intallments
+ 
+portionid
+ 
+.projectDtos
+ 
+.projectDtos
+ 
+جمعية الأورمان تقدم المساعدات الموسمية، وهي: توزيع لحوم الأضاحى،
+          وكراتين رمضان، وبطاطين الشتاء، والمشاركة فى يوم اليتيم. بالإضافة إلى
+          عمل مشروعات تنموية لغير القادرين من الأرامل ومعدومي الدخل، مثل:
+          الأكشاك، ورؤوس المواشي، وتقديم القروض لتمويل المشروعات التنموية
+          المختلفة سواء صناعية او تجارية أو خدمية، وفى المجال الطبى تدعم عمليات
+          القلب والعيون، وتسليم الأجهزة التعويضية والأطراف الصناعية .
+ 
+"ما هي الخدمات التي تقدمها الأرمان ؟"
+ 
+   <Questions
+          title="
+ما هي الأوراق المطلوبة من الجمعيات التي ترغب في التعاون مع الأورمان للاستفادة من خدماتها الخيرية؟"
+        />
+ 
+ <Questions title="ما هي شروط كفالة الاطفال ؟" />
+        <Questions title="ما هي شروط كفالة الاطفال ؟ما هي الاوراق المطلوبة لكفالة طفل يتيم ؟" />
+ 
+{item.name}
+ 
+value={item.id}
+ 
+Type
+ 
+// Don't need to wrap it in an arrow function
+ 
+nClick={() => {
+                console.log("formm dataaaa", donationData);
+              }}
+ 
+  {ele.name}
+ 
+key={projectIndex} value={ele.id}
+ 
+.projects.projectDtos
+ 
+  useEffect(() => {
+ 
+    console.log(donationData);
+  }, []);
+ 
+FormData
+ 
+ axios
+                  .post(baseurl + "Donate/AddDonate", donationData)
+                  .then((response) => {})
+                  .catch((error) => {
+                    // Handle error
+                    console.error("Error making donation:", error);
+                    console.log("sjsjshshsh");
+                  });
+ 
+project
+ 
+key={projectIndex} value={ele.projectId}
+ 
+  {projects1 &&
+                      projects1.projects &&
+                      projects1?.projects?.projectDtos.map(
+                        (ele, projectIndex) => (
+                          <option>{/* {ele.project.name} */}</option>
+                        )
+                      )}
+ 
+key={projectIndex} value={ele.projectId
+ 
+projects
+ 
+{" "}
+ 
+to="/Login"
+ 
+الخروج
+ 
+ const onSubmit = (data, e) => {
+    console.log(data);
+  };
+ 
+, { minLength: 20 }
+ 
+ {errors.firstName?.type === "minLength" && (
+                <p role="alert">First name is required</p>
+              )}
+ 
+ {errors.firstName?.type === "minLength" && (
+                <p role="alert">First name is required</p>
+              )}
+ 
+// Assuming the API responds with data
+      // Handle success, maybe redirect the user or show a success message
+ 
+Invalid email address
+ 
+be 
+ 
+one
+ 
+ one
+ 
+at least one
+ 
+one
+ 
+one
+ 
+one
+ 
+at least one
+ 
+pattern: /^[A-Za-z]+$/i,
+ 
+ value={formData.password}
+                onChange={handleChange}
+ 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+ 
+ const [formData, setFormData] = useState({
+    displayName: "",
+    email: "",
+    phoneNumber: "",
+    password: "",
+  });
+ 
+our-api-endpoint-url
+ 
+  <Form.Group as={Row} className="mb-3" controlId="formLinkedIn">
+            <Form.Label column sm="3" xs={6} className="label">
+              <FaLock size={25} className="mx-2" /> تأكيد كلمــــــــة المرور :
+            </Form.Label>
+            <Col sm="9" xs={6}>
+              <Form.Control type="password" />
+            </Col>
+          </Form.Group>
+ 
+type="password"
+ 
+*/
+ 
+{" "}
+ 
+.trim()
+ 
+console.log("c",showCancel)
+  console.log(show)
+ 
+ handlechange1(e)
+ 
+eee.amount
+ 
+نك عودة
+ 
+{ele.project.name}
+ 
+key={projectIndex}
+ 
+التبـــــــــــرع
+ 
+يط عن طريق:
+ 
+Option 2
+ 
+, donationData, setDonationData
+ 
+Button
+ 
+ useEffect(() => {
+    if (donationData.subDonates.length > 0) {
+    
+    }
+  }, [donationData.subDonates]);
+ 
+type="submit"
+ 
+  onClick={() => {
+                  // setdatacheck([...datacheck, { Le1: 45, Le2: 18, Le3: 350 }]);
+                  handleDonationSubmit();
+                }}
+ 
+  onClick={() => {
+                // setComIndex((prev) => prev !== 3 && prev + 1);
+              }}
+ 
+(e) => {
+                handleDonationSubmit(e);
+              }}
+ 
+subDonates
+ 
+"your-api-endpoint"
+ 
+45,00
+ 
+sm=4
+ 
+sm=8
+ 
+else
+ 
+  if (donationData?.subDonates.length === 0) setcounter(amountField);
+    else setcounter(totalSum);
+    console.log(totalSum, "counteeerrrr");
+    console.log("ttttoooo", donationData.subDonate
+ 
+counter === 0
+ 
+const totalSum = donationData?.subDonates.reduce(
+      (accumulator, item) => accumulator + item.amount,
+      0
+    );
+ 
+, donationData?.subDonates
+ 
+console.log("countineusee", counter == 0);
+ 
+=== 0
+ 
+ if (counter === 0) {
+      console.log("inuseeefect", amountField);
+      setcounter(amountField);
+    }
+ 
+ console.log("poooor", donate);
+  console.log(data1);
+ 
+  setNameIndex("");
+ 
+"string"
+ 
+دخل اسم
+ 
+ltr
+ 
+  {
+                  }
+ 
+ {
+                  }
+                })}
+ 
+  <Form.Group as={Row} className="mb-3" controlId="formLinkedIn">
+            <Form.Label column sm="5" xs={12} md={3} className="label">
+              <img
+                src="../../../assets/Hearttbro3.png"
+                alt=""
+                style={{ width: "1.7rem" }}
+                className="mx-2"
+              />{" "}
+              طريقــــة الدفـــع :
+            </Form.Label>
+            <Col sm="7" xs={12} md={9}>
+              <Form.Select onChange={(e) => {}}>
+                <option value={"cash"}>{"Cash"}</option>;
+                <option value={"Visa"}>{"Visa"}</option>;
+              </Form.Select>
+            </Col>
+          </Form.Group>
+ 
+0
+ 
+console.log(quan);
+ 
+if (inputhandle)
+ 
+// Set your desired value
+ 
+/ quan
+ 
+inputhandle
+ 
+!inputtrue ? isSelected : false
+ 
+inputhandle
+ 
+inputhandle,
+ 
+setAmountField(eee.amount);
+ 
+ <div style={{ width: "18rem" }} className="flex inps">
+                  <div>
+                    <input
+                      type="text"
+                      style={{ height: "100%" }}
+                      className="inp"
+                      value={inputhandle}
+                      dir="rtl"
+                      onChange={(e) => {
+                        setinputhandle(e.target.value);
+                      }}
+                    />
+                  </div>
+                </div>
+ 
+  <Button
+                              className="calc h-100 flex justify-content-center align-items-center"
+                              onClick={() => {
+                                setSelectedOption(index);
+                                setAmountField((prev) => prev - eee.amount);
+                                setquan((prev) => prev + 1);
+                              }}
+                              disabled={!isSelected}
+                            >
+                              -
+                            </Button>
+ 
+<Button
+                              className="calc h-100 flex justify-content-center align-items-center righttext"
+                              onClick={() => {
+                                setSelectedOption(index);
+                                setAmountField((prev) => prev + eee.amount);
+                                setquan((prev) => prev + 1);
+                              }}
+                              disabled={!isSelected}
+                            >
+                              +
+                            </Button>
+ 
+{eee.customPrice===true?}
+ 
+  return (
+                    <div
+                      className="flex mb-2 flexmob"
+                      style={{ flexWrap: "nowrap" }}
+                      key={index}
+                    >
+                      <Form.Check
+                        type="radio"
+                        label="القيمة الكاملة للكشك ( بضاعة /ثلاجة /جسم الكشك/ توصيل كهرباء )."
+                        name={`radioGroup4${index}`}
+                        id={`option${index}`}
+                        value={index}
+                        checked={!inputtrue ? isSelected : false}
+                        onChange={(e) => {
+                          setinputtrue(false);
+                          handleOptionChange3(e, index);
+                          setAmountField(eee.amount);
+                          setquan(1);
+                        }}
+                        className="p-0"
+                      />
+                      <div style={{ width: "18rem" }} className="flex inps">
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center righttext"
+                          onClick={() => {
+                            setSelectedOption(index);
+                            setAmountField((prev) => prev + eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                          disabled={!isSelected}
+                        >
+                          +
+                        </Button>
+                        <div>
+                          <input
+                            type="text"
+                            style={{ height: "100%" }}
+                            className="inp"
+                            value={initialValue}
+                            readOnly
+                          />
+                        </div>
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center"
+                          onClick={() => {
+                            setSelectedOption(index);
+                            setAmountField((prev) => prev - eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                          disabled={!isSelected}
+                        >
+                          -
+                        </Button>
+                      </div>
+                    </div>
+                  );
+ 
+   return (
+                    {eee.customPortionPrice===true}
+                  );
+ 
+<div
+                      className="flex mb-2 flexmob"
+                      style={{ flexWrap: "nowrap" }}
+                      key={index}
+                    >
+                      <Form.Check
+                        type="radio"
+                        label="القيمة الكاملة للكشك ( بضاعة /ثلاجة /جسم الكشك/ توصيل كهرباء )."
+                        name={`radioGroup4${index}`}
+                        id={`option${index}`}
+                        value={index}
+                        checked={!inputtrue ? isSelected : false}
+                        onChange={(e) => {
+                          setinputtrue(false);
+                          handleOptionChange3(e, index);
+                          setAmountField(eee.amount);
+                          setquan(1);
+                        }}
+                        className="p-0"
+                      />
+                      <div style={{ width: "18rem" }} className="flex inps">
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center righttext"
+                          onClick={() => {
+                            setSelectedOption(index);
+                            setAmountField((prev) => prev + eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                          disabled={!isSelected}
+                        >
+                          +
+                        </Button>
+                        <div>
+                          <input
+                            type="text"
+                            style={{ height: "100%" }}
+                            className="inp"
+                            value={initialValue}
+                            readOnly
+                          />
+                        </div>
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center"
+                          onClick={() => {
+                            setSelectedOption(index);
+                            setAmountField((prev) => prev - eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                          disabled={!isSelected}
+                        >
+                          -
+                        </Button>
+                      </div>
+                    </div>
+ 
+  return (
+                    <div
+                      className="flex mb-2 flexmob"
+                      style={{ flexWrap: "nowrap" }}
+                      key={index}
+                    >
+                      <Form.Check
+                        type="radio"
+                        label="القيمة الكاملة للكشك ( بضاعة /ثلاجة /جسم الكشك/ توصيل كهرباء )."
+                        name={`radioGroup4${index}`}
+                        id={`option${index}`}
+                        value={index}
+                        checked={!inputtrue ? isSelected : false}
+                        onChange={(e) => {
+                          setinputtrue(false);
+                          handleOptionChange3(e, index);
+                          setAmountField(eee.amount);
+                          setquan(1);
+                        }}
+                        className="p-0"
+                      />
+                      <div style={{ width: "18rem" }} className="flex inps">
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center righttext"
+                          onClick={() => {
+                            setSelectedOption(index);
+                            setAmountField((prev) => prev + eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                          disabled={!isSelected}
+                        >
+                          +
+                        </Button>
+                        <div>
+                          <input
+                            type="text"
+                            style={{ height: "100%" }}
+                            className="inp"
+                            value={initialValue}
+                            readOnly
+                          />
+                        </div>
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center"
+                          onClick={() => {
+                            setSelectedOption(index);
+                            setAmountField((prev) => prev - eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                          disabled={!isSelected}
+                        >
+                          -
+                        </Button>
+                      </div>
+                    </div>
+                  );
+ 
+   <div style={{ width: "18rem" }} className="flex inps">
+                  <div>
+                    <input
+                      type="text"
+                      style={{ height: "100%" }}
+                      className="inp"
+                      value={inputhandle}
+                      dir="rtl"
+                      onChange={(e) => {
+                        setinputhandle(e.target.value);
+                      }}
+                    />
+                  </div>
+ 
+  <Form.Check
+                  type="radio"
+                  label="ادخل رقم اخر"
+                  checked={inputtrue}
+                  onChange={(e) => {
+                    // handleOptionChange3(e, index);
+                    // setAmountField(eee.amount); // Set the initial amount
+                    // setquan(1);
+                    setinputtrue(true);
+                  }}
+                  className="flex mb-2 flexmob"
+                />
+ 
+// Set the initial amount
+ 
+new
+ 
+                      <div style={{ width: "18rem" }} className="flex inps">
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center righttext"
+                          onClick={() => {
+                            setSelectedOption(eee.amount);
+                            setAmountField((prev) => prev + eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                        >
+                          +
+                        </Button>
+                        <div>
+                          <input
+                            type="text"
+                            style={{ height: "100%" }}
+                            className="inp"
+                            value={initialValue}
+                            readOnly
+                          />
+                        </div>
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center"
+                          onClick={() => {
+                            setSelectedOption(eee.amount);
+                            setAmountField((prev) => prev - eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                        >
+                          -
+                        </Button>
+                      </div>
+ 
+                      <div style={{ width: "18rem" }} className="flex inps">
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center righttext"
+                          onClick={() => {
+                            setSelectedOption(eee.amount);
+                            setAmountField((prev) => prev + eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                        >
+                          +
+                        </Button>
+                        <div>
+                          <input
+                            type="text"
+                            style={{ height: "100%" }}
+                            className="inp"
+                            value={initialValue}
+                            readOnly
+                          />
+                        </div>
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center"
+                          onClick={() => {
+                            setSelectedOption(eee.amount);
+                            setAmountField((prev) => prev - eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                        >
+                          -
+                        </Button>
+                      </div>
+ 
+Check
+ 
+inputhandle
+ 
+ : false
+ 
+!inputtrue ?
+ 
+const [inputhandle, setinputhandle] = useState("");
+  const [inputtrue, setinputtrue] = useState(false);
+ 
+false
+ 
+!inputtrue ?
+ 
+false
+ 
+!inputtrue ? 
+ 
+!inputtrue ? isSelected : false
+ 
+: false
+ 
+!inputtrue ?
+ 
+ return (
+                    <div
+                      className="flex mb-2 flexmob"
+                      style={{ flexWrap: "nowrap" }}
+                      key={index}
+                    >
+                      <Form.Check
+                        type="radio"
+                        label="القيمة الكاملة للكشك ( بضاعة /ثلاجة /جسم الكشك/ توصيل كهرباء )."
+                        name={`radioGroup4${index}`}
+                        id={`option${index}`}
+                        value={eee.amount}
+                        checked={!inputtrue ? isSelected : false}
+                        onChange={(e) => {
+                          setinputtrue(false);
+                          handleOptionChange3(e, index);
+                          setAmountField(eee.amount); // Set the initial amount
+                          setquan(1);
+                        }}
+                        className="p-0"
+                      />
+                      <div style={{ width: "18rem" }} className="flex inps">
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center righttext"
+                          onClick={() => {
+                            setSelectedOption(eee.amount);
+                            setAmountField((prev) => prev + eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                        >
+                          +
+                        </Button>
+                        <div>
+                          <input
+                            type="text"
+                            style={{ height: "100%" }}
+                            className="inp"
+                            value={initialValue}
+                            readOnly
+                          />
+                        </div>
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center"
+                          onClick={() => {
+                            setSelectedOption(eee.amount);
+                            setAmountField((prev) => prev - eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                        >
+                          -
+                        </Button>
+                      </div>
+                    </div>
+                  );
+ 
+return {}
+ 
+ {eee.customPortionPrice?
+                    <div
+                      className="flex mb-2 flexmob"
+                      style={{ flexWrap: "nowrap" }}
+                      key={index}
+                    >
+                      <Form.Check
+                        type="radio"
+                        label="القيمة الكاملة للكشك ( بضاعة /ثلاجة /جسم الكشك/ توصيل كهرباء )."
+                        name={`radioGroup4${index}`}
+                        id={`option${index}`}
+                        value={eee.amount}
+                        checked={!inputtrue ? isSelected : false}
+                        onChange={(e) => {
+                          setinputtrue(false);
+                          handleOptionChange3(e, index);
+                          setAmountField(eee.amount); // Set the initial amount
+                          setquan(1);
+                        }}
+                        className="p-0"
+                      />
+                      <div style={{ width: "18rem" }} className="flex inps">
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center righttext"
+                          onClick={() => {
+                            setSelectedOption(eee.amount);
+                            setAmountField((prev) => prev + eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                        >
+                          +
+                        </Button>
+                        <div>
+                          <input
+                            type="text"
+                            style={{ height: "100%" }}
+                            className="inp"
+                            value={initialValue}
+                            readOnly
+                          />
+                        </div>
+                        <Button
+                          className="calc h-100 flex justify-content-center align-items-center"
+                          onClick={() => {
+                            setSelectedOption(eee.amount);
+                            setAmountField((prev) => prev - eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                        >
+                          -
+                        </Button>
+                      </div>
+                    </div>:""};
+ 
+console.log("poooor", donate);
+  console.log(data1);
+ 
+useEffect(() => {
+    setAmountField(inputhandle);
+  }, [inputhandle]);
+  console.log("amount", amountField);
+ 
+  // Update the state with the new object in the subDonates array
+ 
+console.log(inputhandle);
+ 
+console.log("newwwwww", donationData);
+  console.log("quaaaan", quan);
+ 
+ let isSelected;
+ 
+const
+ 
+const
+ 
+sSelected
+ 
+false
+ 
+"القيمة الكاملة للكشك ( بضاعة /ثلاجة /جسم الكشك/ توصيل كهرباء )
+ 
+ name={`radioGroup4${index}`}
+                  id={`option${index}`}
+ 
+value={eee.amount}
+ 
+ className="flex mb-2 flexmob"
+                      style={{ flexWrap: "nowrap" }}
+                      key={index}
+ 
+ <Button
+                          className="calc h-100 flex justify-content-center align-items-center"
+                          onClick={() => {
+                            setSelectedOption(eee.amount);
+                            setAmountField((prev) => prev - eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                          disabled={!isSelected}
+                        >
+                          -
+                        </Button>
+ 
+   <Button
+                          className="calc h-100 flex justify-content-center align-items-center righttext"
+                          onClick={() => {
+                            setSelectedOption(eee.amount);
+                            setAmountField((prev) => prev + eee.amount);
+                            setquan((prev) => prev + 1);
+                          }}
+                          disabled={!isSelected}
+                        >
+                          +
+                        </Button>
+ 
+ <div
+                className="flex mb-2 flexmob"
+                style={{ flexWrap: "nowrap" }}
+                key={index}
+              >
+                <Form.Check
+                  type="radio"
+                  label="القيمة الكاملة للكشك ( بضاعة /ثلاجة /جسم الكشك/ توصيل كهرباء )."
+                  name={`radioGroup4${index}`}
+                  id={`option${index}`}
+                  value={eee.amount}
+                  checked={isSelected}
+                  onChange={(e) => {
+                    handleOptionChange3(e, index);
+                    setAmountField(eee.amount); // Set the initial amount
+                    setquan(1);
+                  }}
+                  className="p-0"
+                />
+                <div style={{ width: "18rem" }} className="flex inps">
+                  <div>
+                    <input
+                      type="text"
+                      style={{ height: "100%" }}
+                      className="inp"
+                      value={initialValue}
+                      readOnly
+                    />
+                  </div>
+                </div>
+              </div>
+ 
+ handleOptionChange3(e, index);
+                    setAmountField(eee.amount); // Set the initial amount
+                    setquan(1);
+ 
+name={`radioGroup4${index}`}
+                  id={`option${index}`}
+ 
+ <Button
+                    className="calc h-100 flex justify-content-center align-items-center"
+                    onClick={() => {
+                      setSelectedOption(eee.amount);
+                      setAmountField((prev) => prev - eee.amount);
+                      setquan((prev) => prev + 1);
+                    }}
+                    disabled={!isSelected}
+                  >
+                    -
+                  </Button>
+ 
+     <Button
+                    className="calc h-100 flex justify-content-center align-items-center righttext"
+                    onClick={() => {
+                      setSelectedOption(eee.amount);
+                      setAmountField((prev) => prev + eee.amount);
+                      setquan((prev) => prev + 1);
+                    }}
+                    disabled={!isSelected}
+                  >
+                    +
+                  </Button>
+ 
+handlechange(e)
+ 
+هة التبـــــــــــرع :
+ 
+  const [donationData, setDonationData] = useState({
+    paymentTypeId: 0,
+    payOptionId: 0,
+    subDonates: [],
+    currency: "string",
+    employeeLinkId: 0,
+    donatorDto: {
+      name: "string",
+      phone: "string",
+      email: "string",
+    },
+    totalAmount: 0,
+    cardId: 0,
+  });
+ 
+"sksk"
+ 
+"sksk"
+ 
+  <Form.Label column sm="5" xs={12} className="label">
+              <img
+                src="../../../assets/kematbr3.png"
+                width={25}
+                alt=""
+                className="mx-2"
+              />{" "}
+              قيمة التبـــــــــــرع :
+            </Form.Label>
+            <Col sm="7" xs={12}>
+              <Form.Control type="text" />
+            </Col>
+ 
+key={option.value} value={option.value}
+ 
+ {option.label}
+ 
+ <InputGroup className="mb-3">
+            <FormControl
+              placeholder="Outlined"
+              aria-label="Outlined"
+              aria-describedby="outlined-basic"
+            />
+            <Button variant="outline-secondary">Outlined</Button>
+          </InputGroup>
+ 
+  {option.label}
+ 
+key={option.value} value={option.value}
+ 
+ value={selectedOption}
+            onChange={handleSelectChange}
+ 
+{option.value} value={option.value}
+ 
+    value={selectOptions.selectedOption}
+                    onChange={onSelectChange}
+ 
+  label={inputLabel}
+            value={inputValue}
+            onChange={onInputChange}
+ 
+  useEffect(() => {
+    // handleDonationSubmit();
+  }, [donationData.subDonates]);
+ 
+selectedOption
+ 
+   {
+        customeName: "string",
+        quantity: 0,
+        amount: 0,
+        dreamId: 0,
+        portionId: 0,
+        donateId: 0,
+      },
+ 
+    // Other logic for donation submission if needed
+    // ...
+
+    // Make the POST request
+ 
+ const handleOptionChange = (event, index) => {
+    console.log("targgggge", event.target.value);
+    // Use event.target.value directly
+    setSelectedOption(event.target.value);
+  };
+ 
+eee.amount
+ 
+""
+ 
+amountField
+ 
+  setprojects((prevProjects) => {
+              return [
+                ...prevProjects,
+                { projects: [] }, // Add another project array with an empty array
+              ];
+            });
+ 
+index
+ 
+[index]
+ 
+index
+ 
+index
+ 
+(prevProjects) => {}
+ 
+  return [
+            ...prevProjects.slice(0, index),
+            { projects: data }, // update the element at the specified index
+            ...prevProjects.slice(index + 1),
+          ];
+ 
+  if (datacheck[index].Le1 !== 45) {
+                              // setLe1((prev) => prev - 45);
+                              setdatacheck((prevData) => {
+                                const newData = [...prevData];
+                                newData[index] = {
+                                  ...newData[index],
+                                  Le1: newData[index].Le1 - 45,
+                                };
+                                return newData;
+                              });
+                              setSelectedOption((prevOptions) => {
+                                const newOptions = [...prevOptions];
+                                newOptions[index] = {
+                                  value: +prevOptions[index].value - 45,
+                                };
+                                return newOptions;
+                              });
+                            }
+ 
+ setSelectedOption((prevOptions) => {
+                              const newOptions = [...prevOptions];
+                              newOptions[index] = {
+                                value: +prevOptions[index].value + 45,
+                              };
+                              return newOptions;
+                            });
+ 
+ setdatacheck((prevData) => {
+                              const newData = [...prevData];
+                              newData[index] = {
+                                ...newData[index],
+                                Le1: newData[index].Le1 + 45,
+                              };
+                              return newData;
+                            });
+ 
+  );
+        })}
+ 
+ {datacheck.map((item, index) => {
+          return (
+ 
+item
+ 
+.value
+ 
+.value:
+ 
+.value
+ 
+item.amount
+ 
+.value
+ 
+{
+    value: 0,
+  }
+ 
+ setSelectedOption((prevOptions) => {
+      prevOptions = event.target.value;
+      return event.target.value;
+    });
+ 
+[index]
+ 
+   const newOptions = [...prevOptions];
+      newOptions[index] = { value: event.target.value };
+      return newOptions;
+ 
+ const [selectedid, setselectedid] = useState([{ selectedid: 0 }]);
+  const [changedIndex, setChangedIndex] = useState(null);
+ 
+{}
+ 
+Type/GetProjectsType/
+ 
+Type/GetProjectsType/
+ 
+ selectedOption[index].value ==
+                              datacheck[index].Le1
+ 
+if (datacheck[index].Le1 !== 45) {
+                                  // setLe1((prev) => prev - 45);
+                                  setdatacheck((prevData) => {
+                                    const newData = [...prevData];
+                                    newData[index] = {
+                                      ...newData[index],
+                                      Le1: newData[index].Le1 - 45,
+                                    };
+                                    return newData;
+                                  });
+                                  setSelectedOption((prevOptions) => {
+                                    const newOptions = [...prevOptions];
+                                    newOptions[index] = {
+                                      value: +prevOptions[index].value - 45,
+                                    };
+                                    return newOptions;
+                                  });
+                                }
+ 
+   // setLe1((prev) => prev + 45);
+                                setdatacheck((prevData) => {
+                                  const newData = [...prevData];
+                                  newData[index] = {
+                                    ...newData[index],
+                                    Le1: newData[index].Le1 + 45,
+                                  };
+                                  return newData;
+                                });
+                                setSelectedOption((prevOptions) => {
+                                  const newOptions = [...prevOptions];
+                                  newOptions[index] = {
+                                    value: +prevOptions[index].value + 45,
+                                  };
+                                  return newOptions;
+                                });
+ 
+datacheck[index].Le1
+ 
+datacheck[index].Le1
+ 
+donate.key 
+ 
+ <div
+                    className=" flex mb-2 flexmob "
+                    style={{ flexWrap: "nowrap" }}
+                  >
+                    <Form.Check
+                      type="radio"
+                      label="القيمة الكاملة للكشك ( بضاعة /ثلاجة /جسم الكشك/ توصيل كهرباء )."
+                      name={`radioGroup4${index}`}
+                      id="option1"
+                      value={datacheck[index].Le1}
+                      checked={
+                        selectedOption[index].value == datacheck[index].Le1
+                      }
+                      onChange={(e) => handleOptionChange(e, index)}
+                      className="p-0"
+                    />
+                    <div style={{ width: "18rem" }} className="flex inps">
+                      <Button
+                        className="calc h-100 flex justify-content-center align-items-center righttext"
+                        onClick={() => {
+                          // setLe1((prev) => prev + 45);
+                          setdatacheck((prevData) => {
+                            const newData = [...prevData];
+                            newData[index] = {
+                              ...newData[index],
+                              Le1: newData[index].Le1 + 45,
+                            };
+                            return newData;
+                          });
+                          setSelectedOption((prevOptions) => {
+                            const newOptions = [...prevOptions];
+                            newOptions[index] = {
+                              value: +prevOptions[index].value + 45,
+                            };
+                            return newOptions;
+                          });
+                        }}
+                      >
+                        +
+                      </Button>
+                      <div>
+                        <input
+                          type=""
+                          style={{ height: "100%" }}
+                          className="inp"
+                          value={datacheck[index].Le1}
+                        />
+                      </div>
+                      <Button
+                        className="calc h-100 flex justify-content-center align-items-center"
+                        onClick={() => {
+                          if (datacheck[index].Le1 !== 45) {
+                            // setLe1((prev) => prev - 45);
+                            setdatacheck((prevData) => {
+                              const newData = [...prevData];
+                              newData[index] = {
+                                ...newData[index],
+                                Le1: newData[index].Le1 - 45,
+                              };
+                              return newData;
+                            });
+                            setSelectedOption((prevOptions) => {
+                              const newOptions = [...prevOptions];
+                              newOptions[index] = {
+                                value: +prevOptions[index].value - 45,
+                              };
+                              return newOptions;
+                            });
+                          }
+                        }}
+                      >
+                        -
+                      </Button>
+                    </div>
+                  </div>{" "}
+ 
+ <div className=" flex mb-2 righttext flexmob">
+                    <Form.Check
+                      type="radio"
+                      label="قيمة المشاركة في كشك."
+                      name="radioGroup"
+                      value={datacheck[index].Le2}
+                      id="option1"
+                      checked={
+                        selectedOption[index].value == datacheck[index].Le2
+                      }
+                      onChange={(e) => handleOptionChange(e, index)}
+                      className="p-0"
+                    />
+                    <div style={{ width: "18rem" }} className="flex inps">
+                      <Button
+                        className="calc h-100 flex justify-content-center align-items-center"
+                        onClick={() => {
+                          // setLe2((prev) => prev + 18);
+                          setdatacheck((prevData) => {
+                            const newData = [...prevData];
+                            newData[index] = {
+                              ...newData[index],
+                              Le2: newData[index].Le2 + 18,
+                            };
+                            return newData;
+                          });
+                          setSelectedOption((prevOptions) => {
+                            const newOptions = [...prevOptions];
+                            newOptions[index] = {
+                              value: +prevOptions[index].value + 18,
+                            };
+                            return newOptions;
+                          });
+                        }}
+                      >
+                        +
+                      </Button>
+                      <div>
+                        <input
+                          type=""
+                          style={{ height: "100%" }}
+                          className="inp"
+                          value={datacheck[index].Le2}
+                        />
+                      </div>
+                      <Button
+                        className="calc h-100 flex justify-content-center align-items-center"
+                        onClick={() => {
+                          if (datacheck[index].Le2 !== 18) {
+                            // setLe2((prev) => prev - 18);
+                            setdatacheck((prevData) => {
+                              const newData = [...prevData];
+                              newData[index] = {
+                                ...newData[index],
+                                Le2: newData[index].Le2 - 18,
+                              };
+                              return newData;
+                            });
+                            setSelectedOption((prevOptions) => {
+                              const newOptions = [...prevOptions];
+                              newOptions[index] = {
+                                value: +prevOptions[index].value - 18,
+                              };
+                              return newOptions;
+                            });
+                          }
+                        }}
+                      >
+                        -
+                      </Button>
+                    </div>
+                  </div>{" "}
+                  <div className=" flex righttext flexmob mb-3">
+                    <Form.Check
+                      type="radio"
+                      label="سهم المشاركة في الاكشاك."
+                      name="radioGroup"
+                      value={datacheck[index].Le3}
+                      id="option1"
+                      checked={
+                        selectedOption[index].value == datacheck[index].Le3
+                      }
+                      onChange={(e) => handleOptionChange(e, index)}
+                      className="p-0"
+                    />
+                    <div style={{ width: "18rem" }} className="flex inps">
+                      <Button
+                        className="calc h-100 flex justify-content-center align-items-center"
+                        onClick={() => {
+                          // setLe3((prev) => prev + 350);
+                          setdatacheck((prevData) => {
+                            const newData = [...prevData];
+                            newData[index] = {
+                              ...newData[index],
+                              Le3: newData[index].Le3 + 350,
+                            };
+                            return newData;
+                          });
+                          setSelectedOption((prevOptions) => {
+                            const newOptions = [...prevOptions];
+                            newOptions[index] = {
+                              value: +prevOptions[index].value + 350,
+                            };
+                            return newOptions;
+                          });
+                        }}
+                      >
+                        +
+                      </Button>
+                      <div>
+                        <input
+                          type=""
+                          style={{ height: "100%" }}
+                          className="inp"
+                          value={datacheck[index].Le3}
+                        />
+                      </div>
+                      <Button
+                        className="calc h-100 flex justify-content-center align-items-center"
+                        onClick={() => {
+                          if (datacheck[index].Le3 !== 350) {
+                            // setLe3((prev) => prev - 350);
+                            setdatacheck((prevData) => {
+                              const newData = [...prevData];
+                              newData[index] = {
+                                ...newData[index],
+                                Le3: newData[index].Le3 - 350,
+                              };
+                              return newData;
+                            });
+                            setSelectedOption((prevOptions) => {
+                              const newOptions = [...prevOptions];
+                              newOptions[index] = {
+                                value: +prevOptions[index].value - 350,
+                              };
+                              return newOptions;
+                            });
+                          }
+                        }}
+                      >
+                        -
+                      </Button>
+                    </div>
+                  </div>
+                  <div className=" flex righttext flexmob">
+                    <Form.Check
+                      type="radio"
+                      label="سهم المشاركة في الاكشاك."
+                      name="radioGroup"
+                      id="option1"
+                      checked={selectedOption === "option1"}
+                      onChange={handleOptionChange}
+                      className="p-0 "
+                    />
+                    <div style={{ width: "18rem" }} className="flex inps ">
+                      <div>
+                        <input
+                          type=""
+                          style={{ height: "100%" }}
+                          className="inp dj w-100"
+                          // value={Le2}
+                        />
+                      </div>
+                    </div>
+                  </div>
+ 
+const val = event.target.value;
+    console.log(baseurl + "project");
+    console.log(baseurl + `${val}`);
+ 
+Project
+ 
+${event.target.value}
+ 
+console.log("jddhdjd", projects1);
+ 
+  setprojects((prevProjects) => {
+          return [
+            ...prevProjects.slice(0, index),
+            { projects: data }, // update the element at the specified index
+            ...prevProjects.slice(index + 1),
+          ];
+        });
+ 
+data &&
+ 
+data &&
+ 
+{ele.name}
+ 
+console.log(project);
+ 
+{/* Render your project details here */}
+ 
+   <option>الاشتراك</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+ 
+لاشتراك
+ 
+ <option>الاشتراك</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+ 
+item
+ 
+ <option>الاشتراك</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+ 
+  console.log(event.target.value);
+    console.log(index);
+ 
+https://localhost:7067/api/
+ 
+axios.get((r) => {}).then
+ 
+ setselectedid((prev) => {
+      return [
+        ...prev.slice(0, index), // copy elements before the updated index
+        { selectedid: event.target.value }, // update the element at the specified index
+        ...prev.slice(index + 1), // copy elements after the updated index
+      ];
+    });
+ 
+ return [
+          ...prev,
+          { projects1: data }, // update the element at the specified index
+        ];
+      });
+ 
+copy elements before the updated index
+ 
+.slice(0, index), //
+ 
+axios.get(())
+ 
+fetchData();
+ 
+  try {
+          const response = await axios.get(
+            `your-api-endpoint/${selectedid[changedIndex].selectedid}`
+          );
+          // Handle the response data here
+          console.log(response.data);
+        } catch (error) {
+          // Handle errors
+          console.error("Error fetching data:", error);
+        }
+ 
+const fetchData = async () => {
+ 
+event.target.value
+ 
+// const [selected,setselected]=
+ 
+--اختار--
+ 
+ {data?.map((item, index) => (
+              <React.Fragment key={index}>
+                <tr style={{ height: "10rem" }}>
+                  <td rowSpan={2} className="align-middle">
+                    {/* {item.img && (
+                      <img
+                        src={item.img}
+                        alt={`iimage ${index + 1}`}
+                        style={{ width: "23rem", height: "6.7rem" }}
+                        className="soraelectronic"
+                      />
+                    )} */}
+                  </td>
+                  <td>
+                    <ul className="m-0 px-3 ">
+                      {item.bankAcountNumbers.map((element) => {
+                        return (
+                          <>
+                            <li className="textright">
+                              رقم الحساب بال{element.bankType} :{" "}
+                              {element.accountNumber}
+                            </li>
+                            <li className="textright">iban : {element.iban}</li>
+                          </>
+                        );
+                      })}
+                      {/*
+                      <li className="textright">
+                        رقم الحساب بالدولار: {item.rkmhsabd}
+                      </li>
+                       */}
+                    </ul>
+                  </td>
+                </tr>
+                <tr className="textright">
+                  <td className="px-2">
+                    <strong>الكود:</strong> {item.swiftCode}
+                  </td>
+                </tr>
+              </React.Fragment>
+            ))}
+ 
+هـــدف
+ 
+dataType, setDataType]
+ 
+--اختار--
+ 
+ <option>Option 2</option>
+                      <option>Option 3</option>
+ 
+  setItemState((prevData) => {
+                                const newData = [...prevData];
+                                const selectedPortionIndex = newData[
+                                  index
+                                ].portions.findIndex(
+                                  (portion) => portion.selected
+                                );
+                                if (selectedPortionIndex !== -1) {
+                                  newData[index].portions[
+                                    selectedPortionIndex
+                                  ].amount += 1;
+                                }
+                                return newData;
+                              });
+ 
+  setItemState((prevData) => {
+                                const newData = [...prevData];
+                                newData[index].portions[index2].selected = true;
+                                return newData;
+                              });
+ 
+ setItemState((prevData) => {
+                                const newData = [...prevData];
+                                newData[index].portions[index2].selected = true;
+                                return newData;
+                              });
+                            }}
+ 
+ const handleOptionChange = (event, index) => {
+    setSelectedOption((prevOptions) => {
+      const newOptions = [...prevOptions];
+      newOptions[index] = { value: event.target.value };
+      return newOptions;
+    });
+  };
+
+ 
+  const handleOptionnChange = (event, itemIndex, portionIndex) => {
+    setItemState((prevItemState) => {
+      const updatedItemState = [...prevItemState];
+      updatedItemState[itemIndex].portions[portionIndex].amount =
+        event.target.value;
+      return updatedItemState;
+    });
+  };
+ 
+   onChange={(e) =>
+                              handleOptionChange(e, index, index2)
+                            }
+ 
+ {
+      value: 0,
+    },
+ 
+Le1
+ 
+itemState[0].
+ 
+  const handlechangeam = (event, itemIndex, portionIndex, name) => {
+    setItemState((prevItemState) => {
+      const updatedItemState = [...prevItemState];
+      updatedItemState[itemIndex].portions[portionIndex][name] = event.target.value;
+      return updatedItemState;
+    });
+ 
+([name][index] = event.target.value)]
+ 
+prev) => {
+     
+    });
+ 
+ const newOptions = [...prev];
+      return {
+        ...prev,
+        [name][index]: event.target.value,
+      };
+ 
+...prev,
+        [name][index]: event.target.value,
+ 
+ prevOptions: {
+          ...prev.portions,
+            
+        }
+ 
+prevOptions[]
+ 
+null
+ 
+  {
+      
+    },
+ 
+index
+ 
+:""
+ 
+<MdOutlineMail size={30} className="mx-2" /> 
+ 
+<MdOutlineMail size={30} className="mx-2" />
+ 
+البريد الإلكتروني
+ 
+البريد الإلكتروني
+ 
+   <Form.Group as={Row} className="mb-3  " controlId="">
+                <Form.Label column sm="12" md={4} xs={12} className="label">
+                  إجمالي قيمة الزكاة :{" "}
+                </Form.Label>
+                <Col sm="8" xs={12} className="">
+                  <Form.Control type="number" dir="rtl" className="w-50" />
+                </Col>
+              </Form.Group>{" "}
+ 
+justify-content-end
+ 
+    <span style={{ fontSize: "0.6rem", marginRight: "5px" }}>
+                    بالجنيه المصري
+                  </span>
+ 
+<Form.Label column sm="12" md={4} xs={12} className="label">
+                  إجمالي قيمة الزكاة :{" "}
+                </Form.Label>
+ 
+boxshadowout
+ 
+boxshadowout
+ 
+ <span style={{ fontSize: "0.6rem", marginRight: "5px" }}>
+                    بالجنيه المصري
+                  </span>
+ 
+d-flex align-items-center justify-content-end
+ 
+flex-row-reverse
+ 
+                  التقسيط من خلال :
+
+ 
+ جهة التبـــــــــــرع :
+ 
+   <div className=" flex righttext flexmob">
+                    <Form.Check
+                      type="radio"
+                      label="سهم المشاركة في الاكشاك."
+                      name="radioGroup"
+                      id="option1"
+                      checked={selectedOption === "option1"}
+                      onChange={handleOptionChange}
+                      className="p-0 "
+                    />
+                    <div style={{ width: "18rem" }} className="flex inps ">
+                      <div>
+                        <input
+                          type=""
+                          style={{ height: "100%" }}
+                          className="inp dj w-100"
+                          // value={Le2}
+                        />
+                      </div>
+                    </div>
+                  </div>
+ 
+ <div className=" flex righttext flexmob mb-3">
+                    <Form.Check
+                      type="radio"
+                      label="سهم المشاركة في الاكشاك."
+                      name="radioGroup"
+                      value={datacheck[index].Le3}
+                      id="option1"
+                      checked={
+                        selectedOption[index].value == datacheck[index].Le3
+                      }
+                      onChange={(e) => handleOptionChange(e, index)}
+                      className="p-0"
+                    />
+                    <div style={{ width: "18rem" }} className="flex inps">
+                      <Button
+                        className="calc h-100 flex justify-content-center align-items-center"
+                        onClick={() => {
+                          // setLe3((prev) => prev + 350);
+                          setdatacheck((prevData) => {
+                            const newData = [...prevData];
+                            newData[index] = {
+                              ...newData[index],
+                              Le3: newData[index].Le3 + 350,
+                            };
+                            return newData;
+                          });
+                          setSelectedOption((prevOptions) => {
+                            const newOptions = [...prevOptions];
+                            newOptions[index] = {
+                              value: +prevOptions[index].value + 350,
+                            };
+                            return newOptions;
+                          });
+                        }}
+                      >
+                        +
+                      </Button>
+                      <div>
+                        <input
+                          type=""
+                          style={{ height: "100%" }}
+                          className="inp"
+                          value={datacheck[index].Le3}
+                        />
+                      </div>
+                      <Button
+                        className="calc h-100 flex justify-content-center align-items-center"
+                        onClick={() => {
+                          if (datacheck[index].Le3 !== 350) {
+                            // setLe3((prev) => prev - 350);
+                            setdatacheck((prevData) => {
+                              const newData = [...prevData];
+                              newData[index] = {
+                                ...newData[index],
+                                Le3: newData[index].Le3 - 350,
+                              };
+                              return newData;
+                            });
+                            setSelectedOption((prevOptions) => {
+                              const newOptions = [...prevOptions];
+                              newOptions[index] = {
+                                value: +prevOptions[index].value - 350,
+                              };
+                              return newOptions;
+                            });
+                          }
+                        }}
+                      >
+                        -
+                      </Button>
+                    </div>
+                  </div>
+ 
+Le3: 350
+ 
+, Le3: 350 }
+ 
+رسال مندوب
+ 
+   <Col xs={12} sm={6} className="p-2">
+            <Branch
+              title="المقر الرئيسي"
+              address="الهرم – 7 ش الحاج موسى متفرع من ش يحيى شاهين من ش الهرم الرئيسى- أمام مطعم تكا التعاون"
+            />
+          </Col>
+          <Col xs={12} sm={6} className="p-2">
+            <Branch
+              title="مكتب المنصورة"
+              address=" 111 شارع الجمهورية - بجوار بنك الإمارات دبي الوطني"
+            />
+          </Col>
+          <Col xs={12} sm={6} className="p-2">
+            <Branch
+              title="دار أيتام التعاون"
+              address="الهرم – 7 ش الحاج موسى متفرع من ش يحيى شاهين من ش الهرم الرئيسى- أمام مطعم تكا التعاون
+"
+            />
+          </Col>
+          <Col xs={12} sm={6} className="p-2">
+            <Branch
+              title="المقر الرئيسي"
+              address="الهرم – 7 ش الحاج موسى متفرع من ش يحيى شاهين من ش الهرم الرئيسى- أمام مطعم تكا التعاون
+"
+            />
+          </Col>{" "}
+          <Col xs={12} sm={6} className="p-2">
+            <Branch
+              title="مكتب المنصورة"
+              address=" 111 شارع الجمهورية - بجوار بنك الإمارات دبي الوطني"
+            />
+          </Col>
+          <Col xs={12} sm={6} className="p-2">
+            <Branch
+              title="دار أيتام التعاون"
+              address="الهرم – 7 ش الحاج موسى متفرع من ش يحيى شاهين من ش الهرم الرئيسى- أمام مطعم تكا التعاون
+"
+            />
+          </Col>{" "}
+ 
+ const lon = 31.1738865;
+  const lat = 29.9983446;
+ 
+"الهرم – 7 ش الحاج موسى متفرع من ش يحيى شاهين من ش الهرم الرئيسى- أمام مطعم تكا التعاون
+"
+ 
+"دار أيتام التعاون"
+ 
+{" "}
+ 
+required
+ 
+required: true,
+ 
+decimalPlaces
+ 
+80 ?
+ 
+? 90: 0
+ 
+8,350
+ 
+  mousewheel={true}
+        keyboard={true}
+        loop={true}
+ 
+Halfimg
+ 
+info
+ 
+CarosalHalf
+ 
+item.img
+ 
+    </>
+          );
+        })}
+ 
+       {data.map((item) => {
+          return (
+            <>
+ 
+CarosalHalf
+ 
+item.num
+ 
+{item.title}
+ 
+  </>
+          );
+        })}
+ 
+ {data.map((item) => {
+          return (
+            <>
+ 
+info
+ 
+ {item.title}
+ 
+  </>
+          );
+        })}
+ 
+ {data.map((item) => {
+          return (
+            <>
+ 
+  background: radial-gradient(
+      circle at center,
+      transparent 0%,
+      rgba(0, 38, 13, 0.9) 80%
+    ); /* Adjust the color and intensity as needed */
+ 
+item.img
+ 
+item.img
+ 
+item
+ 
+{data.map((item) => {
+          return (
+            <>
+ 
+CarosalHalf
+ 
+alt="" 
+ 
+.CarosalHalf .swiper-pagination-bullet{
+    /* color; */
+    background-color: rgba(255, 252, 252, 0.8) !important;
+}
+.Halfimg{
+    filter: brightness(50%);
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 30393939 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+}
+.info{
+    height: 29.2rem;
+    color: white;
+    justify-content: space-around;
+}
+.Halfimg{
+    display: block !important;
+    width: 100% !important  ;
+    height: 100% !important;
+    object-fit: cover;
+}
+ 
+CarosalHalf
+ 
+CarosalHalf
+ 
+CarosalHalf
+ 
+CarosalHalf
+ 
+     <div className="info flex flex-column justify-content-around align-items-center">
+                  <p
+                    style={{
+                      fontSize: "1.8rem",
+                      borderBottom: "2px solid #FFC107",
+                      fontWeight: "700",
+                    }}
+                    className="p-1 slidesw"
+                  >
+                    {item.title}
+                  </p>
+                  <div className="flex justify-content-between align-items-center w-100">
+                    <div className="flex-colo justify-content-center align-items-center">
+                      <div>تم جمع مبلغ </div>
+                      <div>8,350</div>
+                    </div>
+                    <div className="flex-colo justify-content-center align-items-center">
+                      <div>المبلغ المراد</div>
+                      <div>8,600,000</div>
+                    </div>
+                  </div>
+                  <PieChart1
+                    value={item.num ? item.num : 0}
+                    size={140}
+                    strokewidth={10}
+                  />
+                </div>
+ 
+content
+ 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ 
+>تم جمع مبلغ 
+ 
+SwiperSlide
+ 
+SwiperSlide
+ 
+tyle={{ position: "relative" }}
+ 
+CarosalHalf
+ 
+   <div className="content">
+               djdjd
+              </div>
+ 
+ <div className="info flex flex-column justify-content-around align-items-center">
+                  <p
+                    style={{
+                      fontSize: "1.8rem",
+                      borderBottom: "2px solid #FFC107",
+                      fontWeight: "700"
+                    }}
+                    className="p-1 slidesw"
+                  >
+                    {item.title}
+                  </p>
+                  <div className="flex justify-content-between align-items-center w-100">
+                    <div className="flex-colo justify-content-center align-items-center">
+                      <div>تم جمع مبلغ </div>
+                      <div>8,350</div>
+                    </div>
+                    <div className="flex-colo justify-content-center align-items-center">
+                      <div>المبلغ المراد</div>
+                      <div>8,600,000</div>
+                    </div>
+                  </div>
+                  <PieChart1
+                    value={item.num ? item.num : 0}
+                    size={140}
+                    strokewidth={10}
+                  />
+                </div>
+ 
+content
+ 
+   <div className="content">
+              </div>
+ 
+ '::placeholder': {
+                    /* Your styles for the placeholder */
+                    color: 'red', // Example color
+                    fontSize: '10px', // Example italic style
+                  },
+ 
+italic
+ 
+الاكشاك
+ 
+,border:"1px solid green"
+ 
+between
+ 
+none
+ 
+navBor
+ 
+navBor
+ 
+ <Modal.Footer
+          className="flex"
+          style={{ justifyContent: "center" }}
+        ></Modal.Footer>
+ 
+import { CiUser } from "react-icons/ci";
+import { FaLock } from "react-icons/fa6";
+ 
+   هـــدف
+                  الاكشاك 
+ 
+ <CiMobile3 size={25} className="mx-2" />
+ 
+              قيمة زكاة المال
+
+ 
+{data?.description}
+ 
+"Ramadan.png"
+ 
+"توزيع 20 ألف كيلو لحوم في 10 محافظات على المستحقين"
+ 
+أنشطة اللأورمان/القضاء على الجوع والفقر /كراتين رمضان
+ 
+border: "1px solid",
+ 
+idcard
+ 
+منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على
+            التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن
+            الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا.
+ 
+title
+ 
+"أنشطة اللأورمان/القضاء على الجوع والفقر"
+ 
+{activity.id}
+ 
+{" "}
+ 
+{item.rkmhsabd}
+ 
+${to ? to : geturl}
+ 
+    onClick={() => {
+          setShowz && cl && setShowz(true);
+          setShowz && cl && console.log(238888888888822);
+          click && scrollToHelm();
+        }}
+ 
+{activity.title}
+ 
+import { baseurl } from "./BaseUrl";
+ 
+  click &&
+ 
+ const helmSection = document.getElementById("helm");
+    if (helmSection) {
+      helmSection.scrollIntoView({ behavior: "smooth" });
+    }
+ 
+style={{border:"1px solid"}}
+ 
+style={{border:"1px solid"}}
+ 
+""
+ 
+title
+ 
+to={`${to}`}
+ 
+
+  const [free, setfree] = useState(0);
+  // useEffect(() => {
+  //   setSelectedOption(datacheck.Le1);
+  // }, [datacheck.Le1]);
+  // useEffect(() => {
+  //   setSelectedOption(datacheck.Le2);
+  // }, [datacheck.Le2]);
+  // useEffect(() => {
+  //   setSelectedOption(datacheck.Le3);
+  // }, [datacheck.Le3]);
+ 
+null
+ 
+ == datacheck[index].Le3
+ 
+== datacheck[index].Le1
+ 
+!= 0
+ 
+== datacheck[index].Le2
+ 
+selectedOption[index].value ==
+ 
+== datacheck[index].Le3
+ 
+ == datacheck[index].Le2
+ 
+== datacheck[index].Le1
+ 
+selectedOption[index].value == datacheck[index].Le1
+ 
+selectedOption[index].value ==
+ 
+,{}])
+ 
+  {
+                              ...prevData,
+                              Le1: prevData.Le1 + 45,
+                            },
+ 
+  second: "",
+      third: "",
+    },
+ 
+Le3
+ 
+ const [Le1, setLe1] = useState(45);
+  const [Le2, setLe2] = useState(18);
+  const [Le3, setLe3] = useState(350);
+ 
+"option1"
+ 
+"option1"
+ 
+option1
+ 
+checked={isChecked}
+                  onChange={handleCheckboxChange}
+ 
+    name="radioGroup"
+                  id="option1"
+ 
+  name="radioGroup"
+                  id="option1"
+ 
+ id="option1"
+                  value="option1"
+ 
+selecedOption
+ 
+"option1"
+ 
+ === "option1"
+ 
+=== "option1"
+ 
+ === "option1"
+ 
+ === "option1"
+ 
+screen
+ 
+إضافة
+ 
+تبرع
+ 
+تبرع
+ 
+تبرع
+ 
+تبرع
+ 
+href="/#helm"
+ 
+screen
+ 
+"منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا، دون أي تمييز ديني أو سياسي، وذلك بشكل مؤسسي متطور ويؤكد دور العمل الأهلي فى تنمية المجتمعات اقتصاديًا واجتماعيًا. تعتمد الجمعية في تمويلها على التبرعات العينية والنقدية من المصريين داخل مصر وخارجه
+ 
+gmyaOrman
+ 
+orman
+ 
+منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على
+            التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن
+            الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا، دون أي تمييز ديني
+            أو سياسي، وذلك بشكل مؤسسي متطور ويؤكد دور العمل الأهلي فى تنمية
+            المجتمعات اقتصاديًا واجتماعيًا. تعتمد الجمعية في تمويلها على
+            التبرعات العينية والنقدية من المصريين داخل مصر وخارجها.
+ 
+"../../../assets/gmyaOrman.png"
+ 
+"../../../assets/orman.png"
+ 
+@media (max-width: 992px) {
+  .ff {
+    display: flex !important;
+    width: 14rem;
+    height: 4.45rem;
+    margin: auto !important;
+    flex-direction: column !important;
+    justify-content: space-between;
+  }
+}
+ 
+wrap
+ 
+text-align: right !important;
+  color: white !important;
+ 
+nowrap
+ 
+ormanback.png`
+ 
+public
+ 
+height: 30px;
+ 
+style={{width:"100%"}}
+ 
+../../../public/assets/ormanback.png
+ 
+  background: url("../../../public/assets/ormanback.png");
+    background-size: contain;
+    height: 19.125rem;
+    width: 100%;
+ 
+{`${bool?"ormanback":"resalaback"}`}
+ 
+100% 100%
+ 
+contain
+ 
+height: 19.125rem;
+ 
+'ormanback resala'
+ 
+<Accordion.Item eventKey="1">
+        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+ 
+Accordion Item #1
+ 
+flex-start 
+ 
+  min-height: 39rem !important;
+    padding: 20px;
+ 
+partner-cont
+ 
+center1
+ 
+center1
+ 
+flex1
+ 
+justify-content-center
+ 
+row
+ 
+auto
+ 
+flex1
+ 
+ <div className="flex1">
+     
+      </div>
+ 
+objectFit:"contain"
+ 
+flex1
+ 
+row
+ 
+50px
+ 
+width={"60px"}
+ 
+"../../../"
+ 
+screen
+ 
+fit-content
+ 
+  <div style={{display:"flex",border:"3px solid green"}}>
+        <div style={{border:"1px solid green",flexGrow:"1"}}>
+          djdj
+        </div>
+        <div style={{border:"1px solid green",flexGrow:"1"}}>
+          djdj
+        </div>
+      </div>
+ 
+  max-width: fit-content;
+ 
+,border:"1px solid green"
+ 
+input {
+}
+ 
+width: 30px;
+ 
+important
+ 
+ .flex-row{
+    
+  }
+ 
+ <div className="form-row">
+          <input type="text" name="" id="" placeholder="Input 3" />
+          <input type="text" name="" id="" placeholder="Input 4" />
+        </div>
+ 
+ width: "100%"
+ 
+form div{
+    flex-grow: 1;
+}
+ 
+className='flex1 input1'
+ 
+max-
+ 
+  djjjjjjjjjjjjjh
+ 
+ff0000
+ 
+className=''
+ 
+list
+ 
+style={{border:"4px solid green"}} 
+ 
+ className="flex1"
+ 
+   <div>
+          <FaPhoneAlt/>
+        </div>
+        <div>
+        <p>19455</p>
+        </div>
+ 
+ style={{height:"400px",border:"1px solid blue"}}
+ 
+ display: flex !important;
+    align-items: center;
+ 
+style={{height:"100%",border:"1px solid green"}}
+ 
+width={"100px"}
+ 
+style={{border:"2px solid green"}}
+ 
+style={{border:"2px solid blue"}}
+ 
+tyle={{border:"1px solid green"}}
+ 
+className="footer"
+ 
+ .custom-accordion .accordion-button {
+    --bs-accordion-btn-active-icon: white; /* Change the color */
+    --bs-accordion-btn-icon-transform: none; /* Change the transform if needed */
+  }
+ 
+style={{border:"1px solid green"}}
+ 
+screen and
+ 
+width:"28.70rem"
+ 
+28.70rem
+ 
+ dir='ltr'
+ 
+,width:"32.3rem"
+ 
+style={{ border: "1px solid green" }}
+ 
+py-5
+ 
+style={{border:"1px solid green"}}
+ 
+fluid="lg"
+ 
+,height:"22rem"
+ 
+flow-root
+ 
+variant=""
+ 
+top
+ 
+holder.js/100px180
+ 
+100%"
+ 
+border:"1px solid blue
+ 
+1 of 3
+ 
+    <Row>
+      <Col>1 of 3</Col>
+      <Col xs={5}>2 of 3 (wider)</Col>
+      <Col>3 of 3</Col>
+    </Row>
+ 
+cover
+ 
+dkdk
+ 
+bg-body-tert
+ 
+  style={{
+              display: "flex",
+              Width: "185px",
+              Height: "65px",
+              flexDirection: "column",
+              justifyContent: "space-between",
+            }}
+ 
+height: "100%"
+ 
+border: "1px solid blue"
+ 
+بينين
+ 
+ <div>gg</div> <div>gg</div> <div>gg</div>
+ 
+  <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#link">Link</Nav.Link>
+          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Another action
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action/3.4">
+              Separated link
+            </NavDropdown.Item>
+          </NavDropdown>
+ 
+ن الاورمان
+ 
+Link
+ 
+Dropdown
+ 
+  Another action
+ 
+Home
+ 
+width={"10rem"}
+ 
+React-Bootstrap
+ 
+836px
+ 
+max-
+ 
+ .flex{
+    justify-content: center !important;
+  }
+ 
+ html {
+    font-size: 10px;
+  }
+ 
+@media  {
+  
+}
+ 
+space-between
+ 
+5.5rem
+ 
+سجيل الدخول |
+ 
+ width={""}
+ 
+dddj
+ 
+&npsb;
+ 
+|
+ 
+رق اخري للتبرع
+ 

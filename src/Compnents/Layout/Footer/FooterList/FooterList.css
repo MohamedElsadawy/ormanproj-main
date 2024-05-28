@@ -1,0 +1,23 @@
+.list{
+    text-align: right !important;
+}
+.list ul{
+    margin: 0 !important;
+    padding: 0px  !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: #8E8E8E !important   ;
+}
+.list ul {
+    list-style-type: none; /* Remove default list item bullets */
+  }
+  
+  .list li::before {
+    content: '•'; /* Use a dot as a content for the list item bullets */
+    color: #8E8E8E; /* Change the color to your desired color, for example, red (#ff0000) */
+    display: inline-block;
+    width: 1em; /* Adjust the width as needed */
+    margin-left: 0rem; /* Align the dot properly */
+  }

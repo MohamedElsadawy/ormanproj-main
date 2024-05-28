@@ -1,0 +1,10 @@
+.sora{
+  width: 100%;
+  object-fit: contain;
+}
+.resalaback{
+    background: url("../../../public/assets/ResalaImg.png");
+    background-size: cover;
+    height: 19.125rem;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+.colwidth {
+  max-width: 12rem !important;
+}
+.rowtable th {
+  padding: 1.5rem;
+  background-color: #0c6a2c !important;
+  color: white !important;
+}
+.rec th{
+    
+}
+.tr {
+  border: none !important;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+}
+.rec {
+  border-radius: 20px !important;
+  overflow: hidden !important;
+}
+

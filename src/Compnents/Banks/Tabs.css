@@ -1,0 +1,14 @@
+.bankk {
+  border: 0px !important;
+}
+
+@media (max-width: 800px) {
+  .thetabs {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 0 !important;
+    width: 90% !important;
+    margin: auto !important;
+    margin-bottom: 0.7rem !important;
+  }
+}

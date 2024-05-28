@@ -1,0 +1,9 @@
+.header{
+background-color: #222222;
+min-height:50px;
+width: 100% ;
+padding: 0.5rem 2rem;
+box-sizing: border-box !important;
+cursor: pointer;
+
+}

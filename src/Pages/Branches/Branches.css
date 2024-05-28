@@ -1,0 +1,10 @@
+.branch {
+  display: flex !important;
+  gap: 40px;
+}
+.one {
+  width: 49% !important; /* maximum width of 50% */
+  box-sizing: border-box; /* include padding and border in the width */
+  /* Add any additional styling for your items */
+  border: 1px solid green;
+}

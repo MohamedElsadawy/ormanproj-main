@@ -1,0 +1,19 @@
+.inputa input{
+    width: 15px !important;
+    padding: 0.5rem !important;
+    margin-left: 0.6rem;
+}
+.inputa{
+    margin-left: 0.8rem;
+}
+.checkbx{
+    justify-content: flex-start !important;
+}
+@media (max-width: 767px) {
+    .checkbx{
+        width: 100% !important;
+        text-align: right !important;
+        justify-content: space-between !important;
+        display: flex !important;
+    }
+}

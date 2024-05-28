@@ -1,0 +1,23 @@
+.VectorItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 5.72rem;
+  cursor: pointer;
+  border-bottom:2px solid #222222 !important;
+}
+/* @media (max-width: 767px) {
+  .VectorItem {
+    min-height: 4rem;
+    padding: 1rem;
+  }
+} */
+.VectorItem * {
+  margin: 0;
+  color: #ffc107;
+  font-size: 1.4rem;
+}
+.VectorItem a{
+  color: #ffc107 !important;
+}

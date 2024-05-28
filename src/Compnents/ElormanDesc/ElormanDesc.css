@@ -1,0 +1,27 @@
+/* ElormanDesc.css */
+
+.ormaninfo {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.ormaninfo img {
+  height: 7rem;
+}
+
+.ormaninfo p {
+  text-align: justify;
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+}
+
+.ormanimg {
+  width: 28.7rem;
+}
+@media (max-width: 750px) {
+  .ormanimg {
+    width: 100% !important;
+    object-fit: contain;
+  }
+}
