@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ea69f97.css",
-    "main.js": "/static/js/main.50e60d41.js",
+    "main.js": "/static/js/main.cbc9c66a.js",
     "static/js/787.3aaed284.chunk.js": "/static/js/787.3aaed284.chunk.js",
     "static/media/ResalaImg.png": "/static/media/ResalaImg.c7e3783a177e204bca57.png",
     "static/media/Half-Right.png": "/static/media/Half-Right.02a849feb950ce304cd6.png",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.7ea69f97.css.map": "/static/css/main.7ea69f97.css.map",
-    "main.50e60d41.js.map": "/static/js/main.50e60d41.js.map",
+    "main.cbc9c66a.js.map": "/static/js/main.cbc9c66a.js.map",
     "787.3aaed284.chunk.js.map": "/static/js/787.3aaed284.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ea69f97.css",
-    "static/js/main.50e60d41.js"
+    "static/js/main.cbc9c66a.js"
   ]
 }
